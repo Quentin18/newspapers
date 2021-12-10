@@ -33,6 +33,11 @@ In the USA, the political orientation of American people is mostly divided into 
 
 <!-- Figure: Wordcloud for each newspaper -->
 
+![Wordcloud for democratic party](images/wordclouds/democratic_party.png)
+![Wordcloud for republican party](images/wordclouds/republican_party.png)
+![Wordcloud for other party](images/wordclouds/other_party.png)
+![Wordcloud for no party](images/wordclouds/no_party.png)
+
 ---
 
 ## Sentiment analysis
