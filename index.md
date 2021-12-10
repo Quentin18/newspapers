@@ -16,6 +16,7 @@ In the USA, the political orientation of American people is mostly divided into 
 
 **TODO** <!-- List the newspapers analyzed -->
 
+---
 
 ## First analyses
 
@@ -31,6 +32,7 @@ In the USA, the political orientation of American people is mostly divided into 
 
 <!-- Figure: Wordcloud for each newspaper -->
 
+---
 
 ## Sentiment analysis
 
@@ -52,11 +54,13 @@ In the USA, the political orientation of American people is mostly divided into 
 
 <!-- Figure: Results of PCA with graph of speakers and newspapers -->
 
+---
 
 ## Conclusion
 
 **TODO**
 
+---
 
 ## References
 
