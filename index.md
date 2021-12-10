@@ -6,7 +6,10 @@ In the USA, the political orientation of American people is mostly divided into 
 
 ### Questions
 
-**TODO** <!-- Add the questions -->
+This analysis answers the following questions:
+
+- Who are the main speakers quoted in the newspapers and from what political party are they?
+- What is the opinion of newspapers on big subjects and debated topics? Are these opinions drifting towards one political party?
 
 ### Methods
 
