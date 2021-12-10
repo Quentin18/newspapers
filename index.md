@@ -25,6 +25,7 @@ In the USA, the political orientation of American people is mostly divided into 
 **TODO** <!-- Counts of most frequent speakers in the different newspapers -->
 
 <!-- Figure: Barplot for each newspaper -->
+{% include top_speakers_nyt.html %}
 
 ### Most frequent words
 
