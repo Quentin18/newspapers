@@ -43,7 +43,7 @@ This analysis answers the following questions:
 
 ---
 
-## Sentiment analysis¨
+## Sentiment analysis
 The Wordclouds may have been useful to visualize what the different political parties talk the most about, but what if we want to compare their opinions on the same subjects? Our idea was to use sentiment analysis to quantify the opinion of each party on specific topics. For both Democrat and Republican speakers, we collected the quotes talking about several specific topics:
 - immigration
 - health care
@@ -91,7 +91,7 @@ We can still visualize the sentiment analysis scores for the 3 newspaper, even i
 
 ### What are the main topics in newspapers?
 
-Instead of trying to determine what every actor *thiks* of a topic, we could simply quantify how much they *talk* about it. Indeed, the coverage of an event or a debated subject can also give us information about a newspaper's political opinion. The more a journal talks about a subjet, the more it cares about it. 
+Instead of trying to determine what every actor *thinks* of a topic, we could simply quantify how much they *talk* about it. Indeed, the coverage of an event or a debated subject can also give us information about a newspaper's political opinion. The more a journal talks about a subjet, the more it cares about it. 
 
 **TODO** <!-- Sentiment analysis per topic for each newspaper -->
 
