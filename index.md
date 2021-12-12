@@ -56,6 +56,7 @@ This analysis answers the following questions:
 **TODO** <!-- Sentiment analysis per topic for each newspaper -->
 
 <!-- Figure: Barplot average of compound score for each topic, each newspaper -->
+{% include sentiment_scores_nyt.html %}
 
 ### Political orientation of speakers and newspapers
 
