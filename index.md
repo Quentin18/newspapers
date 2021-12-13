@@ -69,7 +69,7 @@ We then proceeded to do the same analysis separately with our 3 newspaper's quot
 
 **TODO?** <!-- List topics, explain method -->  <!-- A QUEL POINT FAUT VRAIMENT EXPLIQUER LES METHODES DANS LA DATASTORY? -->
 
-<!-- Figure: Table with words per topics -->
+{% include topics_table.html %}
 
 
 #### Sentiment analysis: comparison between political parties
