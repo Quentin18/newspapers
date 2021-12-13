@@ -8,8 +8,10 @@ In the USA, the political orientation of American people is mostly divided into 
 
 This analysis answers the following questions:
 
-- Who are the main speakers quoted in the newspapers and from what political party are they?
-- What is the opinion of newspapers on big subjects and debated topics? Are these opinions drifting towards one political party?
+<ul class="default">
+    <li>Who are the main speakers quoted in the newspapers and from what political party are they?</li>
+    <li>What is the opinion of newspapers on big subjects and debated topics? Are these opinions drifting towards one political party?</li>
+</ul>
 
 ### Methods
 
@@ -46,17 +48,19 @@ This analysis answers the following questions:
 ## Sentiment analysis
 The Wordclouds may have been useful to visualize what the different political parties talk the most about, but what if we want to compare their opinions on the same subjects? Our idea was to use sentiment analysis to quantify the opinion of each party on specific topics. For both Democrat and Republican speakers, we collected the quotes talking about several specific topics:
 
-- immigration
-- health care
-- climate change
-- Trump
-- abortion
-- women’s rights
-- racisms
-- violence
-- war and military action
-- taxes
-- coal industry
+<ul class="default">
+    <li>immigration</li>
+    <li>health care</li>
+    <li>climate change</li>
+    <li>Trump</li>
+    <li>abortion</li>
+    <li>women’s rights</li>
+    <li>racisms</li>
+    <li>violence</li>
+    <li>war and military action</li>
+    <li>taxes</li>
+    <li>coal industry</li>
+</ul>
 
 For each of these topics, we computed the mean opinion score for each party. The scores range from **-1** (for a **negative** opinion) to **+1** (for a **positive** opinion).  
 We then proceeded to do the same analysis separately with our 3 newspaper's quotes, to obtain mean opinion scores for all three of them. 
