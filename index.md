@@ -45,6 +45,7 @@ This analysis answers the following questions:
 
 ## Sentiment analysis
 The Wordclouds may have been useful to visualize what the different political parties talk the most about, but what if we want to compare their opinions on the same subjects? Our idea was to use sentiment analysis to quantify the opinion of each party on specific topics. For both Democrat and Republican speakers, we collected the quotes talking about several specific topics:
+
 - immigration
 - health care
 - climate change
