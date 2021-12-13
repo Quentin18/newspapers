@@ -19,7 +19,7 @@ This analysis answers the following questions:
 
 ### Newspapers
 
-**TODO** <!-- List the newspapers analyzed -->
+{% include newspapers.html %}
 
 ---
 
