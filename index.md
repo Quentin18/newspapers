@@ -48,7 +48,7 @@ This analysis answers the following questions:
 include the pie charts
 ---
 
-## Sentiment analysis
+## Sentiment analysis: party-specific opinions?
 The Wordclouds may have been useful to visualize what the different political parties talk the most about, but what if we want to compare their opinions on the same subjects? Our idea was to use sentiment analysis to quantify the opinion of each party on specific topics. For both Democrat and Republican speakers, we collected the quotes talking about several specific topics:
 
 <ul class="default">
@@ -68,7 +68,7 @@ The Wordclouds may have been useful to visualize what the different political pa
 For each of these topics, we computed the mean opinion score for each party. The scores range from **-1** (for a **negative** opinion) to **+1** (for a **positive** opinion).  
 We then proceeded to do the same analysis separately with our 3 newspaper's quotes, to obtain mean opinion scores for all three of them. 
 
-#### Topics in the newspapers
+### Topics in the newspapers
 
 **TODO?** <!-- List topics, explain method -->  <!-- A QUEL POINT FAUT VRAIMENT EXPLIQUER LES METHODES DANS LA DATASTORY? -->
 
@@ -105,7 +105,7 @@ We can still visualize the sentiment analysis scores for the 3 newspaper, even i
 <!-- Figure: Results of PCA with graph of speakers and newspapers -->
 
 ---
-### Topic analysis: what are the main topics in newspapers?
+## Topic analysis: what are the main topics in newspapers?
 
 Instead of trying to determine what every actor *thinks* of a topic, we could simply quantify how much they *talk* about it. Indeed, the coverage of an event or a debated subject can also give us information about a newspaper's political opinion. The more a journal talks about a subjet, the more it cares about it. 
 
