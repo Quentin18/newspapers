@@ -3,7 +3,7 @@
 ### Abstract
 **REDO ABSTRACT**
 In the USA, the political orientation of American people is mostly divided into two main parties: the republicans and the democrats. The famous New York Times newspaper claims to be neutral, presenting both democratic and republican opinions. Here, we will use the quotebank dataset containing a set of quotations published in the newspapers between 2015 and 2020 to verify this statement. Using different techniques such as sentiment analysis and Principal Component Analysis, we will highlight the separation between pro-democratic and pro-republican in the quotations and their speakers and check whether one political orientation is more strongly represented than the other one. The determination of the political orientation will be based on sentiment analysis about several chosen topics that are commonly addressed in the USA and on which republicans and democrats tend to argue.
-- intro sur les newspaper 
+- intro sur les newspapers: tous les américains s'informent en lisant les journaux. parmis ceux-ci: lister... Est c qu'ils se font influencer par l'opinion propre au journal?
 - ya plusieurs partis
 - cnn and Fox not neutral, nyt neutral
 
