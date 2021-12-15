@@ -45,8 +45,8 @@ This analysis answers the following questions:
 
 ### What about the party distribution in the newspapers?
 
-include the pie charts
 ---
+Include the Pie chart.
 
 ## Sentiment analysis: party-specific opinions?
 The Wordclouds may have been useful to visualize what the different political parties talk the most about, but what if we want to compare their opinions on the same subjects? Our idea was to use sentiment analysis to quantify the opinion of each party on specific topics. For both Democrat and Republican speakers, we collected the quotes talking about several specific topics:
@@ -99,6 +99,8 @@ We can still visualize the sentiment analysis scores for the 3 newspaper, even i
 
 
 ### Political orientation of speakers and newspapers
+
+{% include PCA_nyt.html %}
 
 **TODO** <!-- PCA with speakers, clustering if possible -->
 
