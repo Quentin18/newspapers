@@ -9,12 +9,11 @@ The ultimate goal of this analysis is to define the political orientation the ne
 This is adressed through several questions:
 
 <ul class="default">
-    
     <li>Who are the main speakers quoted in the newspapers and from what political party are they?</li>
     <li>What is the opinion of newspapers on big subjects and debated topics? Are these opinions drifting towards one political party?</li>
     <li>Are there any specific topics that are frequently addressed by newspapers? Are those topics relevant to define the newspapers' political opinion?</li>
-
 </ul>
+
 All of the questions are answered in this analysis.
 
 ### Methods
