@@ -32,7 +32,7 @@ This analysis answers the following questions:
 <!-- Figure: Barplot for each newspaper -->
 {% include top_speakers_nyt.html %}
 
-### Most frequent words
+### The most frequent words
 
 **TODO** <!-- Occurences of words (wordclouds) -->
 
@@ -43,6 +43,9 @@ This analysis answers the following questions:
 ![Wordcloud for other party](images/wordclouds/other_party.png)
 ![Wordcloud for no party](images/wordclouds/no_party.png)
 
+### What about the party distribution in the newspapers?
+
+include the pie charts
 ---
 
 ## Sentiment analysis
@@ -65,14 +68,14 @@ The Wordclouds may have been useful to visualize what the different political pa
 For each of these topics, we computed the mean opinion score for each party. The scores range from **-1** (for a **negative** opinion) to **+1** (for a **positive** opinion).  
 We then proceeded to do the same analysis separately with our 3 newspaper's quotes, to obtain mean opinion scores for all three of them. 
 
-#### Topic detection
+#### Topics in the newspapers
 
 **TODO?** <!-- List topics, explain method -->  <!-- A QUEL POINT FAUT VRAIMENT EXPLIQUER LES METHODES DANS LA DATASTORY? -->
 
 {% include topics_table.html %}
 
 
-#### Sentiment analysis: comparison between political parties
+#### Can we use sentiment analysis to compare the political parties?
 <!-- Figure: Barplot average of compound score for each topic, each party -->
 {% include sentiment_scores_nyt.html %}
 
@@ -94,18 +97,6 @@ We can still visualize the sentiment analysis scores for the 3 newspaper, even i
 
 <!-- Figure: Barplot average of compound score for each topic, each newspaper -->
 
-### What are the main topics in newspapers?
-
-Instead of trying to determine what every actor *thinks* of a topic, we could simply quantify how much they *talk* about it. Indeed, the coverage of an event or a debated subject can also give us information about a newspaper's political opinion. The more a journal talks about a subjet, the more it cares about it. 
-
-**TODO** <!-- Sentiment analysis per topic for each newspaper -->
-
-<!-- Figure: Barplot frequency of quotes about each topic -->
-
-
-
-
-
 
 ### Political orientation of speakers and newspapers
 
@@ -114,6 +105,15 @@ Instead of trying to determine what every actor *thinks* of a topic, we could si
 <!-- Figure: Results of PCA with graph of speakers and newspapers -->
 
 ---
+### Topic analysis: what are the main topics in newspapers?
+
+Instead of trying to determine what every actor *thinks* of a topic, we could simply quantify how much they *talk* about it. Indeed, the coverage of an event or a debated subject can also give us information about a newspaper's political opinion. The more a journal talks about a subjet, the more it cares about it. 
+
+**TODO** <!-- Sentiment analysis per topic for each newspaper -->
+
+<!-- Figure: Barplot frequency of quotes about each topic -->
+
+
 
 ## Conclusion
 
