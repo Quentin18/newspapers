@@ -7,6 +7,7 @@ In the USA, the political orientation of American people is mostly divided into 
 ### Questions
 The ultimate goal of this analysis is to define the political orientation the newspapers. Indeed, is it possible to guess the political opinion of a newspaper based only on its content? Popular newspapers should be neutral in the way they present the news, but are they really neutral? Otherwise, which political parties do they support the most?
 This is adressed through several questions:
+
 <ul class="default">
     
     <li>Who are the main speakers quoted in the newspapers and from what political party are they?</li>
@@ -15,6 +16,7 @@ This is adressed through several questions:
 
 </ul>
 All of the questions are answered in this analysis.
+
 ### Methods
 
 **TODO** <!-- List the methods used -->
