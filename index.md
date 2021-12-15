@@ -41,11 +41,10 @@ Before going any deeper in the analysis, a first overview of our data set allows
 **TODO** <!-- Occurences of words (wordclouds) -->
 
 <!-- Figure: Wordcloud for each newspaper -->
-
-![Wordcloud for democratic party](images/wordclouds/democratic_party.png)
-![Wordcloud for republican party](images/wordclouds/republican_party.png)
-![Wordcloud for other party](images/wordclouds/other_party.png)
-![Wordcloud for no party](images/wordclouds/no_party.png)
+<img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
+<img class="image" src="images/wordclouds/wordcloud_republican_party.svg" alt="Wordcloud Republican Party" />
+<img class="image" src="images/wordclouds/wordcloud_other_party.svg" alt="Wordcloud Other Party" />
+<img class="image" src="images/wordclouds/wordcloud_no_party.svg" alt="Wordcloud No Party" />
 
 ### What about the party distribution in the newspapers?
 
