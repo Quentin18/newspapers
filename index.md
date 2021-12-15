@@ -1,10 +1,13 @@
 ## Introduction
 
 ### Abstract
-
+**REDO ABSTRACT**
 In the USA, the political orientation of American people is mostly divided into two main parties: the republicans and the democrats. The famous New York Times newspaper claims to be neutral, presenting both democratic and republican opinions. Here, we will use the quotebank dataset containing a set of quotations published in the newspapers between 2015 and 2020 to verify this statement. Using different techniques such as sentiment analysis and Principal Component Analysis, we will highlight the separation between pro-democratic and pro-republican in the quotations and their speakers and check whether one political orientation is more strongly represented than the other one. The determination of the political orientation will be based on sentiment analysis about several chosen topics that are commonly addressed in the USA and on which republicans and democrats tend to argue.
+- intro sur les newspaper 
+- ya plusieurs partis
+- cnn and Fox not neutral, nyt neutral
 
-### Questions
+### Method
 The ultimate goal of this analysis is to define the political orientation the newspapers. Indeed, is it possible to guess the political opinion of a newspaper based only on its content? Popular newspapers should be neutral in the way they present the news, but are they really neutral? Otherwise, which political parties do they support the most?
 This is adressed through several questions:
 
@@ -14,11 +17,11 @@ This is adressed through several questions:
     <li>Are there any specific topics that are frequently addressed by newspapers? Are those topics relevant to define the newspapers' political opinion?</li>
 </ul>
 
-All of the questions are answered in this analysis.
+In the following, the Quotebank dataset regrouping quotations published in multiple english newspapers between 2015 and 2020 is analysed. We focused our intention on 3 newspapers: the New York Times, the CNN and the Fox News. The determination of the political orientation of the journals is based on several chosen topics that are commonly addressed in the USA and on which republicans and democrats tend to argue. 
+We use dictionaries related to the topics to select the interesting quotations and sentiment analysis as indicator of one's opinion. Statistical tests as well as dimensionality reduction will help us interpret our data. 
+Additionally, we look at the way the current topics are presented in the newspapers to help us assess their political opinion. 
 
-### Methods
-
-**TODO** <!-- List the methods used -->
+Throughout the whole analysis, the results coming from the 3 different newspapers are compared, keeping in mind the respective political bias of the Fox News and the CNN. 
 
 ### Newspapers
 
@@ -27,6 +30,7 @@ All of the questions are answered in this analysis.
 ---
 
 ## First analyses
+Before going any deeper in the analysis, some information can be extracted from the dataset.
 
 ### Who are the speakers?
 
