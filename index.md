@@ -34,7 +34,17 @@ Before going any deeper in the analysis, a first overview of our data set allows
 **TODO** <!-- Counts of most frequent speakers in the different newspapers -->
 
 <!-- Figure: Barplot for each newspaper -->
-{% include top_speakers_nyt.html %}
+{% include nyt/nyt_bar_top_speakers.html %}
+
+{% include cnn/cnn_bar_top_speakers.html %}
+
+{% include fox/fox_bar_top_speakers.html %}
+
+{% include nyt/nyt_pie_parties.html %}
+
+{% include cnn/cnn_pie_parties.html %}
+
+{% include fox/fox_pie_parties.html %}
 
 ### The most frequent words
 
@@ -79,6 +89,7 @@ We then proceeded to do the same analysis separately with our 3 newspaper's quot
 
 
 #### Can we use sentiment analysis to compare the political parties?
+
 <!-- Figure: Barplot average of compound score for each topic, each party -->
 {% include sentiment_scores_nyt.html %}
 
@@ -103,11 +114,15 @@ We can still visualize the sentiment analysis scores for the 3 newspaper, even i
 
 ### Political orientation of speakers and newspapers
 
-{% include PCA_nyt.html %}
-
 **TODO** <!-- PCA with speakers, clustering if possible -->
 
 <!-- Figure: Results of PCA with graph of speakers and newspapers -->
+
+{% include nyt/nyt_pca_2d.html %}
+
+{% include cnn/cnn_pca_2d.html %}
+
+{% include fox/fox_pca_2d.html %}
 
 ---
 ## Topic analysis: what are the main topics in newspapers?
