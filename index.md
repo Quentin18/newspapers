@@ -26,8 +26,6 @@ Throughout the whole analysis, the results coming from the 3 different newspaper
 
 {% include newspapers.html %}
 
----
-
 ## First analyses
 Before going any deeper in the analysis, some information can be extracted from the dataset.
 
