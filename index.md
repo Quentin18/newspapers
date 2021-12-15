@@ -1,16 +1,15 @@
 ## Introduction
 
 ### Abstract
-**REDO ABSTRACT**
-In the USA, the political orientation of American people is mostly divided into two main parties: the republicans and the democrats. The famous New York Times newspaper claims to be neutral, presenting both democratic and republican opinions. Here, we will use the quotebank dataset containing a set of quotations published in the newspapers between 2015 and 2020 to verify this statement. Using different techniques such as sentiment analysis and Principal Component Analysis, we will highlight the separation between pro-democratic and pro-republican in the quotations and their speakers and check whether one political orientation is more strongly represented than the other one. The determination of the political orientation will be based on sentiment analysis about several chosen topics that are commonly addressed in the USA and on which republicans and democrats tend to argue.
-- intro sur les newspapers: tous les américains s'informent en lisant les journaux. parmis ceux-ci: lister... Est c qu'ils se font influencer par l'opinion propre au journal?
-- ya plusieurs partis
-- cnn and Fox not neutral, nyt neutral
+
+**TO COMPLETE**
+
+Everyday, millions of articles are published in the newspapers. Many Americans have its favorite journal, whether it is the New York Times, the CNN, the Fox News or any other journal that every day publishes the latest breaking news. News coverage can be very influential, affecting one’s opinion through the information it provides or the emotional reaction it generates on the reader. Most of these newspapers claim having a neutral political opinion, but in general, a newspaper’s phrasing or language is specifically chosen with the intention of exposing a certain political outcome. Thus, the reader’s opinion is easily influenced by the content published in its favorite journal, although he’s not conscious of it. For example, CNN is known to emphasize the democrat opinion while the Fox News is known for its republican ideas.
+Analyzing the content of a newspaper is therefore a good way to verify its political orientation and the political ideas it wants to transmit. This data story present a quotation based analysis of newspapers and their political bias.
 
 ### Method
 The ultimate goal of this analysis is to define the political orientation the newspapers. Indeed, is it possible to guess the political opinion of a newspaper based only on its content? Popular newspapers should be neutral in the way they present the news, but are they really neutral? Otherwise, which political parties do they support the most?
 This is adressed through several questions:
-
 <ul class="default">
     <li>Who are the main speakers quoted in the newspapers and from what political party are they?</li>
     <li>What is the opinion of newspapers on big subjects and debated topics? Are these opinions drifting towards one political party?</li>
