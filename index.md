@@ -20,14 +20,14 @@ In the following, the Quotebank dataset regrouping quotations published in multi
 We use dictionaries related to the topics to select the interesting quotations and sentiment analysis as indicator of one's opinion. Statistical tests as well as dimensionality reduction will help us interpret our data. 
 Additionally, we look at the way the current topics are presented in the newspapers to help us assess their political opinion. 
 
-Throughout the whole analysis, the results coming from the 3 different newspapers are compared, keeping in mind the respective political bias of the Fox News and the CNN. 
+Throughout the whole analysis, the results coming from the 3 different newspapers are compared, keeping in mind their respective political bias. 
 
 ### Newspapers
 
 {% include newspapers.html %}
 
 ## First analyses
-Before going any deeper in the analysis, some information can be extracted from the dataset.
+Before going any deeper in the analysis, a first overview of our data set allows us to extract some interesting information.
 
 ### Who are the speakers?
 
