@@ -49,7 +49,7 @@ In fact, it is possible that the newspaper uses the words of this person against
 Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. Nervertheless, it can provide some clues.
 
 ### What about the party distribution in the newspapers?
-We focus now not on the speakers themselves, but mostly on their party. Knowing the party of each speaker (republican, democrat, another party or no identified party), we can group together all the speakers that belong to the same party and assess the importance attributed to each party in the newspapers. Can we already perceive a news coverage bias towards one of the paries?
+We focus now not on the *speakers* themselves, but mostly on their *party*. Knowing the party of each speaker (republican, democrat, another party or no identified party), we can group together all the speakers that belong to the same party and assess the importance attributed to each party in the newspapers. Can we already perceive a news coverage bias towards one of the paries?
 {% include nyt/nyt_pie_parties.html %}
 
 {% include cnn/cnn_pie_parties.html %}
