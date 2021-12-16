@@ -107,13 +107,17 @@ We then proceeded to do the same analysis separately with our 3 newspaper's quot
 <!-- Figure: Barplot average of compound score for each topic, each party -->
 {% include sentiment_scores_nyt.html %}
 
+<!-- Ici: analyse de la figure: 
+    1. la plupart des sentiment sont autour de 0, est ce que cela veut dire que le journal est neutre? non, surement simplement que les scores s'annulent.
+    3. il y a des sujets sur lequels les deux partis s'entendent: contre la violence et contre la guerre, mais cela ne nous avance pas.
+    2. les democrats et republicains auraient, si on suit nos results, des opinions similaires sur quasiment tous les sujets. Pour les republicains: une opinion neutre pour immigration? une opinion neutre sur le racisme? cela nous semble fortement bizarre: cela doit vouloir dire que c'est faux. 
 Clearly, the sentiment analysis results are not the ones expected. We should observe a clear demarcation between the opinion scores of Democrats and Republicans, at leat on topics such as immigration or health care, on which they are drastically opposed. But in our results, there is little to no significant difference between both parties, meaning that **our sentiment analysis was unsuccessful**.
 
 <!-- Table: topics with significant difference or not (?) -->
 
-*Why was it the case?* 
+*Why is it the case?* 
+We used a simple pretrained model for our sentiment analysis, based on emotions. In addition, the sentiment analysis shouldn't be considered optimal for the difficult task of computing the opinions towards a topic. In fact, the way our sentiment analysis was build is by only considering the positive and negative words in the quotations, without taking into account the context of the words. Therefore, two quotations that have an opposite meaning on the same topic can have the same sentiment score, just because both quotations use positive key words or on the contrary negative ones. To sum up, the emotions that are perceived in one's quote are not direclty representative of the speaker's opinion, but a context would be needed.
 
-We used a simple pretrained model for our sentiment analysis, based on emotions.  **TODO**
 <!-- complete if we cannot improve the results -->
 
 
@@ -121,7 +125,7 @@ We used a simple pretrained model for our sentiment analysis, based on emotions.
 #### Sentiment analysis: comparison between the different journals
 
 We can still visualize the sentiment analysis scores for the 3 newspaper, even if the results are not optimal.
-**TODO** <!-- Sentiment analysis per topic for each newspaper -->
+**TODO** <!-- Sentiment analysis per topic for each newspaper-->
 
 <!-- Figure: Barplot average of compound score for each topic, each newspaper -->
 
@@ -137,6 +141,10 @@ We can still visualize the sentiment analysis scores for the 3 newspaper, even i
 {% include cnn/cnn_pca_2d.html %}
 
 {% include fox/fox_pca_2d.html %}
+
+<!-- explain again that we have bad result, and illustrate what we said above (the limitaitons of the sentiment analysis) with Trump case: he has a PCA score of 0 in both compoenents, and also in the sentiment score: but Trump isn't neutral ? 
+
+we suppose that Donald Trump isn't neutral at all and instead has very positive or very negative opinion on each topic. However, by averaging the sentiment scores over each of his quotations, they cancel each other and we get an average neutral score. This isn't accurate. -->
 
 ---
 ## Topic analysis: what are the main topics in newspapers?
