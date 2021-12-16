@@ -100,15 +100,14 @@ Our idea was to use sentiment analysis to quantify the opinion of each party on 
 
 The 11 topics were specially chosen because they are current topics that are often found in the news. Since these topics tend to create debate in the United States within the different parties, and since we believe that each party has a well-defined opinion on each of these subjects, we believe that it would be possible to determine one's political opinion based on his/her opinion on each individual topic.
 
+#### Can we use sentiment analysis to compare the political parties?
 For each of these topics, we computed the mean opinion score for each party. The scores range from **-1** (for a **negative** opinion) to **+1** (for a **positive** opinion).  
 We then proceeded to do the same analysis separately with our 3 newspaper's quotes, to obtain mean opinion scores for all three of them. 
-
-#### Can we use sentiment analysis to compare the political parties?
 
 <!-- Figure: Barplot average of compound score for each topic, each party -->
 {% include sentiment_scores_nyt.html %}
 
-Clearly, the sentiment analysis results are not the ones expected. We should observe a clear demarcation between the opinion scores of Democrats and Republicans, at leat on topics such as immigration or health care, on which they are drastically opposed. But in our results there is little to no significant difference between both parties, meaning that **our sentiment analysis was unsuccessful**.
+Clearly, the sentiment analysis results are not the ones expected. We should observe a clear demarcation between the opinion scores of Democrats and Republicans, at leat on topics such as immigration or health care, on which they are drastically opposed. But in our results, there is little to no significant difference between both parties, meaning that **our sentiment analysis was unsuccessful**.
 
 <!-- Table: topics with significant difference or not (?) -->
 
@@ -131,7 +130,7 @@ We can still visualize the sentiment analysis scores for the 3 newspaper, even i
 
 **TODO** <!-- PCA with speakers, clustering if possible -->
 
-<!-- Figure: Results of PCA with graph of speakers and newspapers -->
+<!-- Figure: Results of PCA with graph of speakers and newspapers, on en met que un non de PCA graph??? -->
 
 {% include nyt/nyt_pca_2d.html %}
 
