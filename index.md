@@ -25,7 +25,7 @@ Throughout the whole analysis, the results coming from the 3 different newspaper
 {% include newspapers.html %}
 
 ## First analyses
-A first overview of our data set allows us to extract some interesting information.
+A first overview of our data set allowed us to extract some interesting information.
 
 ### Who are the speakers?
 
@@ -49,17 +49,19 @@ In fact, it is possible that the newspaper uses the words of this person against
 Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. Nervertheless, it can provide some clues.
 
 ### What about the party distribution in the newspapers?
-We focus now not on the speakers themselves, but mostly on their party. Knowing the party of each speaker (republican, democrat, another party or no identified party), we can group together all the speakers that belong to the same party and assess the importance attributed to each party in the newspapers. Can we already perceive a news coverage bias.?
+We focus now not on the speakers themselves, but mostly on their party. Knowing the party of each speaker (republican, democrat, another party or no identified party), we can group together all the speakers that belong to the same party and assess the importance attributed to each party in the newspapers. Can we already perceive a news coverage bias towards one of the paries?
 {% include nyt/nyt_pie_parties.html %}
 
 {% include cnn/cnn_pie_parties.html %}
 
 {% include fox/fox_pie_parties.html %}
 
+**TODO** <!-- Exlpain? -->
 
 ### The most frequent words
+During the entiere analysis, we tried to oppose the two major parties: repubublican and democratic one. We assumed that the parties distinguish themsleves through the words they used, the subjects they adresse and how they address them. Therefore, we highlighted the differences in the words that were used the most in the two major opposing parties.
 
-**TODO** <!-- Occurences of words (wordclouds) -->
+**TODO** <!-- Occurences of words (wordclouds), est ce que on garderait pas seulemtn les republicains et les democrates? -->
 
 <!-- Figure: Wordcloud for each newspaper -->
 <img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
@@ -67,13 +69,18 @@ We focus now not on the speakers themselves, but mostly on their party. Knowing 
 <img class="image" src="images/wordclouds/wordcloud_other_party.svg" alt="Wordcloud Other Party" />
 <img class="image" src="images/wordclouds/wordcloud_no_party.svg" alt="Wordcloud No Party" />
 
-### What about the party distribution in the newspapers?
-
----
-Include the Pie chart.
 
 ## Sentiment analysis: party-specific opinions?
-The Wordclouds may have been useful to visualize what the different political parties talk the most about, but what if we want to compare their opinions on the same subjects? Our idea was to use sentiment analysis to quantify the opinion of each party on specific topics. For both Democrat and Republican speakers, we collected the quotes talking about several specific topics:
+The Wordclouds may have been useful to visualize what the different political parties talk the most about, but what if we want to compare their opinions on the same subjects? Let's go deeper in our thoughts now, by applying a sentiment analysis on different chosen topics.
+
+
+### Topics in the newspapers
+Our idea was to use sentiment analysis to quantify the opinion of each party on specific topics. For both Democrat and Republican speakers, we collected the quotes talking about several specific topics that are given in the table below. Next to each topic are shown some examples words that we used to generate a complete dictionnary.
+
+**TODO?** <!-- List topics, explain method -->  <!-- A QUEL POINT FAUT VRAIMENT EXPLIQUER LES METHODES DANS LA DATASTORY? -->
+
+{% include topics_table.html %}
+
 
 <ul class="default">
     <li>immigration</li>
@@ -91,12 +98,6 @@ The Wordclouds may have been useful to visualize what the different political pa
 
 For each of these topics, we computed the mean opinion score for each party. The scores range from **-1** (for a **negative** opinion) to **+1** (for a **positive** opinion).  
 We then proceeded to do the same analysis separately with our 3 newspaper's quotes, to obtain mean opinion scores for all three of them. 
-
-### Topics in the newspapers
-
-**TODO?** <!-- List topics, explain method -->  <!-- A QUEL POINT FAUT VRAIMENT EXPLIQUER LES METHODES DANS LA DATASTORY? -->
-
-{% include topics_table.html %}
 
 
 #### Can we use sentiment analysis to compare the political parties?
