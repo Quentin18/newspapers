@@ -27,9 +27,11 @@ Throughout the whole analysis, the results coming from the 3 different newspaper
 {% include newspapers.html %}
 
 ## First analyses
-Before going any deeper in the analysis, a first overview of our data set allows us to extract some interesting information.
+A first overview of our data set allows us to extract some interesting information.
 
 ### Who are the speakers?
+
+The news publishes millions of words coming from millions of different personalities. However, some speakers can be reccurent and the recurrent ones can also be specific to each newspaper. Thus, the speaking time of a peronality could be a hint to show how much the newspaper agrees with his or her ideas and would want to emphasize them! In other words, is the importance that a newspaper gives to a person by publishing his words already a clue as to the opinion of the newspaper? 
 
 **TODO** <!-- Counts of most frequent speakers in the different newspapers -->
 
@@ -45,6 +47,12 @@ Before going any deeper in the analysis, a first overview of our data set allows
 {% include cnn/cnn_pie_parties.html %}
 
 {% include fox/fox_pie_parties.html %}
+
+- citer pour chaque journal quels sont les peronnalités
+- parler de Trump
+Let's remember that a newspaper that publishes the words of a certain person does not necessarily agree with them. 
+In fact, it is possible that the newspaper uses the words of this person against him or her, to criticize him/her. The example of Trump illustrates this case perfectly: Trump seems to be strongly present in the CNN, however it would be very surprising if the CNN approved of all his words.
+Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. It can, nervertheless, give sone clues.
 
 ### The most frequent words
 
