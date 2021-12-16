@@ -42,17 +42,21 @@ The news publishes millions of words coming from millions of different personali
 
 {% include fox/fox_bar_top_speakers.html %}
 
+All newspapers agree on at leat one point: from 2015 to 2020 all years combined, Donald Trump is by far **the** speaker in the news. We shouldn't be surprise by this result, as he has been the President of the Unite States most of these years. 
+
+**TODO: citer pour chaque journal quels sont les peronnalités, quelles infos on en tire?**
+
+Let's remember that a newspaper that publishes the words of a certain person does not necessarily agree with them. 
+In fact, it is possible that the newspaper uses the words of this person against him or her, to criticize him/her. The example of Trump illustrates this case perfectly: Trump seems to be strongly present in the CNN, however it would be very surprising if the CNN approved of all his words.
+Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. It can, nervertheless, give sone clues.
+
+### What about the party distribution in the newspapers?
+
 {% include nyt/nyt_pie_parties.html %}
 
 {% include cnn/cnn_pie_parties.html %}
 
 {% include fox/fox_pie_parties.html %}
-
-- citer pour chaque journal quels sont les peronnalités
-- parler de Trump
-Let's remember that a newspaper that publishes the words of a certain person does not necessarily agree with them. 
-In fact, it is possible that the newspaper uses the words of this person against him or her, to criticize him/her. The example of Trump illustrates this case perfectly: Trump seems to be strongly present in the CNN, however it would be very surprising if the CNN approved of all his words.
-Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. It can, nervertheless, give sone clues.
 
 ### The most frequent words
 
