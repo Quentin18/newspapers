@@ -59,15 +59,16 @@ We focus now not on the *speakers* themselves, but mostly on their *party*. Know
 **TODO** <!-- Exlpain? -->
 
 ### The most frequent words
-During the entiere analysis, we tried to oppose the two major parties: repubublican and democratic one. We assumed that the parties distinguish themsleves through the words they used, the subjects they adresse and how they address them. Therefore, we highlighted the differences in the words that were used the most in the two major opposing parties.
+During the entiere analysis, we tried to oppose the two major parties: the repubublican one and the democratic one. We assumed that the parties distinguish themsleves through the words they use, the subjects they adress and how they address them. Therefore, we highlighted the differences in the words that were used the most in the two major opposing parties.
 
-**TODO** <!-- Occurences of words (wordclouds), est ce que on garderait pas seulemtn les republicains et les democrates? -->
 
 <!-- Figure: Wordcloud for each newspaper -->
 <img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
 <img class="image" src="images/wordclouds/wordcloud_republican_party.svg" alt="Wordcloud Republican Party" />
 <img class="image" src="images/wordclouds/wordcloud_other_party.svg" alt="Wordcloud Other Party" />
 <img class="image" src="images/wordclouds/wordcloud_no_party.svg" alt="Wordcloud No Party" />
+ 
+ **TODO** <!-- Analyse des Occurences of words (wordclouds), est ce que on garderait pas seulemtn les republicains et les democrates? -->
 
 
 ## Sentiment analysis: party-specific opinions?
@@ -75,13 +76,13 @@ The Wordclouds may have been useful to visualize what the different political pa
 
 
 ### Topics in the newspapers
-Our idea was to use sentiment analysis to quantify the opinion of each party on specific topics. For both Democrat and Republican speakers, we collected the quotes talking about several specific topics that are given in the table below. Next to each topic are shown some examples words that we used to generate a complete dictionnary.
+Our idea was to use sentiment analysis to quantify the opinion of each party on specific topics. For both Democrat and Republican speakers, we collected the quotes talking about several specific topics that are given in the table below. Next to each topic are shown some example words that we used to generate a complete dictionnary.
 
-**TODO?** <!-- List topics, explain method -->  <!-- A QUEL POINT FAUT VRAIMENT EXPLIQUER LES METHODES DANS LA DATASTORY? -->
+**TODO** <!-- List topics, explain method -->  <!-- A QUEL POINT FAUT VRAIMENT EXPLIQUER LES METHODES DANS LA DATASTORY? -->
 
 {% include topics_table.html %}
 
-
+<!-- 
 <ul class="default">
     <li>immigration</li>
     <li>health care</li>
@@ -95,6 +96,7 @@ Our idea was to use sentiment analysis to quantify the opinion of each party on 
     <li>taxes</li>
     <li>coal industry</li>
 </ul>
+--> 
 
 For each of these topics, we computed the mean opinion score for each party. The scores range from **-1** (for a **negative** opinion) to **+1** (for a **positive** opinion).  
 We then proceeded to do the same analysis separately with our 3 newspaper's quotes, to obtain mean opinion scores for all three of them. 
