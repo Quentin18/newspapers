@@ -98,9 +98,10 @@ Our idea was to use sentiment analysis to quantify the opinion of each party on 
 </ul>
 --> 
 
+The 11 topics were specially chosen because they are current topics that are often found in the news. Since these topics tend to create debate in the United States within the different parties, and since we believe that each party has a well-defined opinion on each of these subjects, we believe that it would be possible to determine one's political opinion based on his/her opinion on each individual topic.
+
 For each of these topics, we computed the mean opinion score for each party. The scores range from **-1** (for a **negative** opinion) to **+1** (for a **positive** opinion).  
 We then proceeded to do the same analysis separately with our 3 newspaper's quotes, to obtain mean opinion scores for all three of them. 
-
 
 #### Can we use sentiment analysis to compare the political parties?
 
