@@ -47,7 +47,7 @@ In fact, it is possible that the newspaper uses the words of this person against
 Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. Nervertheless, it can provide some interesting clues...
 
 ### What about the party distribution in the newspapers?
-We focus now not on the *speakers* themselves, but mostly on their *party*. Knowing the party of each speaker (Republican, Democrat, another party or no identified party), we can group together all the speakers that belong to the same party and assess the importance attributed to each of them in the newspapers. Can we already perceive a news coverage bias towards one of the parties?
+We focus now not on the *speakers* themselves, but mostly on their *party*. Knowing the party of each speaker (*Republican*, *Democrat, another party* or *no identified party*), we can group together all the speakers that belong to the same party and assess the importance attributed to each of them in the newspapers. Can we already perceive a news coverage bias towards one of the parties?
 
 {% include nyt/nyt_pie_parties.html %}
 
@@ -55,11 +55,11 @@ We focus now not on the *speakers* themselves, but mostly on their *party*. Know
 
 {% include fox/fox_pie_parties.html %}
 
-From these pie charts, we can compare the newspapers to each other. First of all, the Republican party is the most represented in all three newspapers, again this is not surprising given that Donald Trump is in charge of the US for most of the period of our data. On the other hand, it may be interesting to look at the ratio of Republican to Democrat speaking time (% Democrat / % Republican). For CNN and FOX, we have 0.64 and 0.65 respectively, which means that the Democratic party is less represented than the Republican party by about 35%. For the NYT we get a ratio of 0.80, which means that the Democrats are less represented than the Republicans by only 20%. This is another indication that the NYT is more Democratic than the other two newspapers. 
+Comparing the results from all three newspapers, we observe interesting things. First of all, it is obvious that the Republican party is party that is the most represented in all three journals. Again this is not surprising given that Donald Trump has been in charge of the United-States during most of the selected period. One can also note that the NYT has the largest percentage of *No Party* (around 62% against 40% and 45%). A possible explanation for that is that the paper talks less about politics, or if it does, it gives more importance to people who are not affiliated to any party that the other journals.
 
-Furthermore, the NYT has the largest percentage of 'No Party', which could mean a lot. One possible interpretation is that the paper talks less about politics, or if it does talk about politics, gives more space to people who are not affiliated with any party. 
+Going deeper in our analysis, it might be worth looking at the ratio of Republicans against Democrats speaking time (% Democrat / % Republican). For CNN and Fox, this ratio is equal to 0.64 and 0.65 respectively, which means that in both newspapers, the Democratic party is less represented than the Republican one by about 35%. For the NYT we get a ratio of 0.80, meaning that the Democrats are less represented than the Republicans by only 20%. Thus, comparing all three newspapers, the New York Times tends to give more importance to the Democrats than the other two newspapers. This could be again a first sign of political bias from the NYT towards the Democratic party.
 
-Finally, we can see that the 'Other Parties' are only marginally represented in these newspapers, showing the dominance of the two major parties 'Democrat' and 'Republican'. However, FOX news remains the most vocal of the other parties with 2.7%. 
+Finally, the *Other Parties* are only marginally represented in these newspapers, showing the dominance of the two major parties: Democrat and Republican. 
 
 ### The most frequent words
 During the entire analysis, we tried to oppose two major parties: the Republican one and the Democratic one. We assumed that the parties distinguish themselves through the words that are used, the subjects that are adressed and how they're addressed. Therefore, we are first interested in seeing which words are the most used for each party. Are they different? Are some words significant for the party? 
