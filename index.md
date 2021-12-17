@@ -103,19 +103,17 @@ Our idea was to use Sentiment Analysis to quantify the opinion of each party on 
 The 11 topics were specifically chosen because they are current topics that are often present in the news. Since these topics tend to create a lot of debates in the United States within the different parties, and since we believe that each party has a well-defined opinion on each of these subjects, we believe that it would be possible to determine one's political opinion based on his/her opinion about each topic.
 
 #### Can we use sentiment analysis to compare the political parties?
-For each of these topics, we computed the mean opinion score for each party. The scores range from **-1** (for a **negative** opinion) to **+1** (for a **positive** opinion).  
-We then proceeded to do the same analysis separately with our 3 newspaper's quotes, to obtain mean opinion scores for all three of them. We took the exmaple of the New York Times newspaper.
+For each of these topics, we computed the mean opinion score of each party. The scores range from **-1** (for a **negative** opinion) to **+1** (for a **positive** opinion).  
+We then proceeded to do the same analysis separately with our 3 newspaper's quotes, to obtain mean opinion scores for all three of them. We took the example of the New York Times newspaper.
 
 <!-- Figure: Barplot average of compound score for each topic, each party -->
 {% include sentiment_scores_nyt.html %}
     
-Clearly, the sentiment analysis results are not the ones expected. Following these results, we would conclude that both parties tend to agree on most of the topics: they're against war and violence and have very positive emotions towards Donald Trump for example. Some results may possible, but we should at least observe a clear demarcation in the opinion scores on topics such as tax or health care, on which both parties are drastically opposed. On the contrary, in our results, there is little to no significant difference between Democrats and Republicans. Furthemore, as most of the mean sentiment scores are very close to 0, does that mean that the newspapers have in general a neutral opinion on each of the topics? And do Republicans really have a neutral opinion on immigration? Waht about neutral emotions towards racism? It seems absurd to make such conclusions, meaning that **our sentiment analysis was unsuccessful**, and we can't use it to determine any news coverage bias.
-
-<!-- Table: topics with significant difference or not (?) -->
+Clearly, the Sentiment Analysis results are not the expected ones. Following these results, we would conclude that both parties tend to agree on most of the topics: they're against war and violence and have very positive emotions towards Donald Trump for example. Some results may possible, but we should at least observe a clear demarcation in the opinion scores on topics such as tax or health care, on which both parties are drastically opposed. On the contrary, in our results, there is little to no significant difference between Democrats and Republicans. Furthemore, as most of the mean sentiment scores are very close to 0, does that mean that the newspapers have in general a neutral opinion on each of the topics? And do Republicans really have a neutral opinion on immigration? Waht about neutral emotions towards racism? It seems absurd to make such conclusions. Therefore, we conclude that **our sentiment analysis was unsuccessful**, and we can't use it to determine any news coverage bias.
 
 *Why is it the case?* 
-We used a simple pretrained model for our sentiment analysis, based on emotions. In addition, the sentiment analysis shouldn't be considered optimal for the difficult task of computing the opinions towards a topic. In fact, the way our sentiment analysis was build is by only considering the positive and negative words in the quotations, without taking into account the context of the words. Therefore, two quotations that have an opposite meaning on the same topic can have the same sentiment score, just because both quotations use positive key words or on the contrary negative ones.
-To sum up, the emotions that are perceived in one's quote are not direclty representative of the speaker's opinion, but a context would be needed.
+We used a simple pretrained model for our sentiment analysis, based on emotions. In addition, the Sentiment Analysis shouldn't be considered optimal for the difficult task of computing the opinions towards a topic. In fact, the way our Sentiment Analysis was built is by only considering the positive and negative words in the quotations, without taking into account the context of the words. Therefore, two quotations that have an opposite meaning on the same topic can have the same sentiment score, just because both quotations use positive key words or on the contrary negative ones.
+To sum up, the emotions that are perceived in one's quote are not direclty representative of the speaker's opinion wthout the context.
 
 <!-- complete if not enough-->
 
@@ -130,7 +128,7 @@ We can still visualize the sentiment analysis scores for the 3 newspaper, even i
 
 ### Political orientation of speakers and newspapers
 
-Another way of assessing the pertinence of the sentiment scores to indicate the ideology of the speakers is by projecting the speaker-specific scores into a substantively meaningful vector space, that has a maximum variance. Using standard dimensionality reduction techniques such as principal component analysis (PCA), we can then visualize the repartition of speakers according to their sentiment scores.
+Another way of assessing the pertinence of the sentiment scores to indicate the ideology of the speakers is by projecting the speaker-specific scores into a substantively meaningful vector space, that has a maximum variance. Using standard dimensionality reduction techniques such as principal component analysis (PCA), we can then visualise the repartition of speakers according to their sentiment scores.
 In this section, we focused on the identified authors of the quotes that belong to one of the two selected parties. We tried to emphasize the demarcation of the parties using the speaker-specific sentiment scores. Are the sentiment scores attributed to each speaker meaningful enough to describe their political orientation? In other words, can we use the sentiment scores to distinguish speakers from opposing parties?
 Each datapoint in the plots corresponds to a speaker and is characterized by the sentiment scores averaged over all of their quotations.
 
@@ -140,7 +138,7 @@ The New York Time's results are taken as example. Note that for visualisation pu
 
 The results are coherent with our inital conclusions: **the sentiment scores alone are not sufficient to describe one's political opinion**.
 Indeed, we would have hoped to see two distinct groups of people in the plots: the republicans on one side and the democrats on the other. This would have been the ideal scenario, which would have shown that we can indeed separate the authors from different parties by assessing the sentiments in their words. But clearly, it is not the case: Republicans and Democrats are indistinguishable.
-Let's zoom in the center of the plots, to assess the personality that has a value close to 0 for both components. This speaker is well known: it is the current President of the United_States. In fact, when looking at the data, the topic-specific sentiment scores that describe Donald Trump are very close to zero.
+Let's zoom in the center of the plots, to assess the personality that has a value close to 0 for both components. This speaker is well known: it is the current President of the United-States. In fact, when looking at the data, the topic-specific sentiment scores that describe Donald Trump are very close to zero.
 How is that possible?
 Donald Trump is known for his drastic thoughts, having either very positive or very negative opinions on each topic, but very rarely neutral ones. However, by averaging the sentiment scores over each of his quotations, they cancel each other and we get an average score approaching zero, meaning a neutral point of view. This conclusion isn't accurate and show that to assess the global opinion of a personality, one can't simply average the sentiment scores over all of their quotes. 
 Thus, with our method, trying to determine the political bias of the newspapers by analyzing what people say isn't optimal. 
