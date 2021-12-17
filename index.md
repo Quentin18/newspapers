@@ -65,9 +65,11 @@ Finally, the *Other Parties* are only marginally represented in these newspapers
 During the entire analysis, we tried to oppose two major parties: the Republican one and the Democratic one. We assumed that the parties distinguish themselves through the words that are used, the subjects that are adressed and how they're addressed. Therefore, we are first interested in seeing which words are the most used for each party. Are they different? Are some words significant for the party? 
 
 <!-- Figure: Wordcloud for each newspaper -->
-Here is the wordcloud for the Democratic party
+**Here is the wordcloud for the Democratic party**
 <img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
-And the wordcloud for the Republican party
+<br>
+**And the wordcloud for the Republican party**
+<br>
 <img class="image" src="images/wordclouds/wordcloud_republican_party.svg" alt="Wordcloud Republican Party" />
 <!-- 
 <img class="image" src="images/wordclouds/wordcloud_other_party.svg" alt="Wordcloud Other Party" />
