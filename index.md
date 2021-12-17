@@ -31,8 +31,6 @@ A first overview of our data set allowed us to extract some interesting informat
 
 The news publishes millions of words coming from millions of different personalities. However, some speakers can be reccurent and the recurrent ones can also be specific to each newspaper. Thus, the speaking time of a peronality could be a hint to show how much the newspaper agrees with his or her ideas and would want to emphasize them! In other words, is the importance that a newspaper gives to a person by publishing his words already a clue as to the opinion of the newspaper? 
 
-**TODO** <!-- Counts of most frequent speakers in the different newspapers -->
-
 <!-- Figure: Barplot for each newspaper -->
 {% include nyt/nyt_bar_top_speakers.html %}
 
@@ -42,7 +40,7 @@ The news publishes millions of words coming from millions of different personali
 
 All newspapers agree on at leat one point: from 2015 to 2020 all years combined, Donald Trump is by far **the** speaker in the news. We shouldn't be surprise by this result, as he has been the President of the Unite States most of these years. 
 
-**TODO: citer pour chaque journal quels sont les peronnalités, quelles infos on en tire?**
+**TODO** <!-- citer pour chaque journal quels sont les peronnalités, quelles infos on en tire?-->
 
 Let's remember that a newspaper that publishes the words of a certain person does not necessarily agree with them. 
 In fact, it is possible that the newspaper uses the words of this person against him or her, to criticize him/her. The example of Trump illustrates this case perfectly: Trump seems to be strongly present in the CNN, however it would be very surprising if the CNN approved of all his words.
@@ -61,24 +59,22 @@ We focus now not on the *speakers* themselves, but mostly on their *party*. Know
 ### The most frequent words
 During the entiere analysis, we tried to oppose the two major parties: the repubublican one and the democratic one. We assumed that the parties distinguish themsleves through the words they use, the subjects they adress and how they address them. Therefore, we highlighted the differences in the words that were used the most in the two major opposing parties.
 
-
 <!-- Figure: Wordcloud for each newspaper -->
 <img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
 <img class="image" src="images/wordclouds/wordcloud_republican_party.svg" alt="Wordcloud Republican Party" />
 <img class="image" src="images/wordclouds/wordcloud_other_party.svg" alt="Wordcloud Other Party" />
 <img class="image" src="images/wordclouds/wordcloud_no_party.svg" alt="Wordcloud No Party" />
  
- **TODO** <!-- Analyse des Occurences of words (wordclouds), est ce que on garderait pas seulemtn les republicains et les democrates? -->
+ **TODO** <!-- Analyse des Occurences of words (wordclouds), est ce que on garderait pas seulement les republicains et les democrates? -->
 
 
 ## Sentiment analysis: party-specific opinions?
 The Wordclouds may have been useful to visualize what the different political parties talk the most about, but what if we want to compare their opinions on the same subjects? Let's go deeper in our thoughts now, by applying a sentiment analysis on different chosen topics.
 
-
 ### Topics in the newspapers
 Our idea was to use sentiment analysis to quantify the opinion of each party on specific topics. For both Democrat and Republican speakers, we collected the quotes talking about several specific topics that are given in the table below. Next to each topic are shown some example words that we used to generate a complete dictionnary.
 
-**TODO** <!-- List topics, explain method -->  <!-- A QUEL POINT FAUT VRAIMENT EXPLIQUER LES METHODES DANS LA DATASTORY? -->
+<!-- List topics, explain method -->  <!-- A QUEL POINT FAUT VRAIMENT EXPLIQUER LES METHODES DANS LA DATASTORY? -->
 
 {% include topics_table.html %}
 
@@ -106,21 +102,16 @@ We then proceeded to do the same analysis separately with our 3 newspaper's quot
 
 <!-- Figure: Barplot average of compound score for each topic, each party -->
 {% include sentiment_scores_nyt.html %}
-
-<!-- Ici: analyse de la figure: 
-    1. la plupart des sentiment sont autour de 0, est ce que cela veut dire que le journal est neutre? non, surement simplement que les scores s'annulent.
-    3. il y a des sujets sur lequels les deux partis s'entendent: contre la violence et contre la guerre, mais cela ne nous avance pas.
-    2. les democrats et republicains auraient, si on suit nos results, des opinions similaires sur quasiment tous les sujets. Pour les republicains: une opinion neutre pour immigration? une opinion neutre sur le racisme? cela nous semble fortement bizarre: cela doit vouloir dire que c'est faux. 
-Clearly, the sentiment analysis results are not the ones expected. We should observe a clear demarcation between the opinion scores of Democrats and Republicans, at leat on topics such as immigration or health care, on which they are drastically opposed. But in our results, there is little to no significant difference between both parties, meaning that **our sentiment analysis was unsuccessful**.
+    
+Clearly, the sentiment analysis results are not the ones expected. Following our results, we would conclude that both parties tend to agree on most of the topics: they're against war and violence or have very positie emotions towards Donald Trump for example. Some results may possible, but we should at least observe a clear demarcation in the opinion scores on topics such as tax or health care, on which both parties are drastically opposed. On the contrary, in our results, there is little to no significant difference between Democrats and Republicans. Furthemore, as most of the mean sentiment scores are very close to 0, does that mean that the newspapers have a general neutral opinion on each topic? And do Republicans really have a neutral opinion on immigration? Neutral emotions towards racism? It seems absurd to us to make such conclusions, meaning that **our sentiment analysis was unsuccessful**, and we can't use it to determine any news coverage bias.
 
 <!-- Table: topics with significant difference or not (?) -->
 
 *Why is it the case?* 
-We used a simple pretrained model for our sentiment analysis, based on emotions. In addition, the sentiment analysis shouldn't be considered optimal for the difficult task of computing the opinions towards a topic. In fact, the way our sentiment analysis was build is by only considering the positive and negative words in the quotations, without taking into account the context of the words. Therefore, two quotations that have an opposite meaning on the same topic can have the same sentiment score, just because both quotations use positive key words or on the contrary negative ones. To sum up, the emotions that are perceived in one's quote are not direclty representative of the speaker's opinion, but a context would be needed.
+We used a simple pretrained model for our sentiment analysis, based on emotions. In addition, the sentiment analysis shouldn't be considered optimal for the difficult task of computing the opinions towards a topic. In fact, the way our sentiment analysis was build is by only considering the positive and negative words in the quotations, without taking into account the context of the words. Therefore, two quotations that have an opposite meaning on the same topic can have the same sentiment score, just because both quotations use positive key words or on the contrary negative ones.
+To sum up, the emotions that are perceived in one's quote are not direclty representative of the speaker's opinion, but a context would be needed.
 
-<!-- complete if we cannot improve the results -->
-
-
+<!-- complete if not enough-->
 
 #### Sentiment analysis: comparison between the different journals
 
