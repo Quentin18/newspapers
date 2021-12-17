@@ -63,7 +63,7 @@ We focus now not on the *speakers* themselves, but mostly on their *party*. Know
 - proportion republicain et democrate? analyser et comparer!-->
 
 ### The most frequent words
-During the entire analysis, we tried to oppose two major parties: the Republican one and the Democratic one. We assumed that the parties distinguish themsleves through the words that are used, the subjects that are adressed and how they are addressed. Therefore, we highlighted the differences in the words that were used the most in the two major opposing parties.
+During the entire analysis, we tried to oppose two major parties: the Republican one and the Democratic one. We assumed that the parties distinguish themselves through the words that are used, the subjects that are adressed and how they're addressed. Therefore, we are first interested in seeing which words are the most used for each party. Are they different? Are some words significant for the party? 
 
 <!-- Figure: Wordcloud for each newspaper -->
 <img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
