@@ -142,10 +142,14 @@ To illustrate this idea, we can take a look at the repartition of the Republican
 **CNN**{% include cnn/CNN_R_VS_D_racism.html %}
 **FOX**{% include fox/FOX_R_VS_D_racism.html %}
 
+*Note: the values plotted on the graph are stacked, to see the contribution of each party use the interactive cursor*
+
+At first sight, the repartition of Republican quotes over the Democrat ones seems pretty balanced. However, over the last couple years, all journals seem to publish more Democratic quotes about racism than Republican ones. This could be explained by the fact that a lot of democratic speakers also advocate for the human rights, whereas this topic is less present in republican’s politics. But this difference between parties is more noticeable in the New York Times and CNN journals than in Fox, which stills publishes a non-negligeable amount of Republican quotes. This is once again an argument showing the tendency of Fox News to support the republican ideology, and the tendency of the others to lean to the democratic side. 
+ 
 
 ## Conclusion
 
-**TODO**
+Of course, all these arguments are simply clues that are not sufficient to categorize fully a media as Democratic or Republican. The three media selected are internationally recognized and amongst the most influent ones, if not in the world at least in the US, so they must keep a part of balance between political parties. However, an inside analysis of their publications (as we just did) can give us cues about what is the true opinion of the journals, and can help us read between the lines when getting informed about important topics. Everyone should  be able to build its own opinion about a topic, and reading a newspaper that is biased without knowing it clearly affects how the reader will view the subject. This is why more analyses of media’s content should be conducted, on larger scales and going deeper than what we did here, to alert the public about the possible influence it may experience.  
 
 ---
 
