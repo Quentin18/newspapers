@@ -81,7 +81,7 @@ During the entire analysis, we tried to oppose two major parties: the Republican
 <img class="image" src="images/wordclouds/wordcloud_no_party.svg" alt="Wordcloud No Party" />
 -->
  
- **TODO** <!-- Analyse des Occurences of words (wordclouds), est ce que on garderait pas seulement les republicains et les democrates? -->
+The comparison of these two world clouds highlights the similarities and differences between the two parties. Indeed, even if these two parties are opposed on many issues, their goal is identical: to be the leader of the USA. This explains why the terms from one party to the other are rather identical but their use is not the same. For the Democratic Party, the terms 'issue' 'right' 'woman' 'try' and 'support' are interesting because they reflect, in a very simplified way, the Democratic ideologies. On the Republican side the terms 'America' and 'great' appear, consistent with the slogan 'Make America Great Again'. There is also a strong use of 'country' 'United State' 'State' and 'nation' in line with the nationalist viewpoint of the Republicans. Finally, these plots allow us to ensure that the selected quotations are representative of the divergent opinions between Republicans and Democrats, and that it is therefore interesting to study them more precisely using a sentimental analysis.
 
 
 ## Sentiment analysis: party-specific opinions?
