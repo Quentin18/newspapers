@@ -27,7 +27,7 @@ Throughout the whole analysis, we compare the the results from the 3 different n
 ## First analyses
 A first overview of our dataset allowed us to extract some interesting information.
 
-### Who are the speakers?
+### Who are the main speakers?
 
 Newspapers publish millions of quotations coming from millions of different personalities. However, some speakers may be published more than others. We call them recurrent speakers. In addition, the recurrent speakers can also be specific to each newspaper. Thus, the speaking time of a personality in a newspaper could be a hint to show how much the journal agrees with their ideas and would want to emphasize them! In other words, is the importance that a newspaper gives to a person by publishing his words already a clue as to the opinion of the newspaper? 
 
@@ -65,14 +65,14 @@ Finally, the *Other Parties* are only marginally represented in these newspapers
 During the entire analysis, we tried to oppose two major parties: the Republican one and the Democratic one. We assumed that the parties distinguish themselves through the words that are used, the subjects that are adressed and how they're addressed. Therefore, we are first interested in seeing which words are the most used for each party. Are they different? Are some words significant for the party? 
 
 <!-- Figure: Wordcloud for each newspaper -->
-**Here is the wordcloud for the Democratic party**
+**Wordcloud for the Democratic party**
 <br>
 
 <img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
 
 <br>
 
-**And the wordcloud for the Republican party**
+**Wordcloud for the Republican party**
 <br>
 
 <img class="image" src="images/wordclouds/wordcloud_republican_party.svg" alt="Wordcloud Republican Party" />
@@ -134,8 +134,13 @@ Instead of trying to determine what every actor *thinks* of a topic, we could si
 
 We thus proceeded to analyze the coverage of different topics over the years, in each of the three newspapers. Below is the quotes distribution per month from 2015 to 2020 for the New York Times, CNN and Fox. The topic of the quote can be selected using the dropdown menu on the left.
 
+**The New York Times**
 {% include nyt/nyt_topics_count.html %}
+
+**CNN**
 {% include cnn/cnn_topics_count.html %}
+
+**FOX**
 {% include fox/fox_topics_count.html %}
 
 Clearly the topics are all covered regularly. What is interesting is that we can identify major events simply by looking at the peaks in quotes repartition: for example, the number of quotes about racism exploded in August 2017, right at the time of the white nationalist walk in Charlottesville. This peak is even more remarkable in the CNN quotes count, and way less present for Fox. As we can consider CNN as clearly leaning towards the Democrats’ side, and Fox clearly towards the Republican’s one, this proves that looking at the quotes repartition can help us analyze a newspaper’s political orientation.
@@ -143,8 +148,13 @@ Clearly the topics are all covered regularly. What is interesting is that we can
 More than the general quotes about a topic, what gives us further information on a journal’s political side is the speaking time allocated to each party. Comparing the distribution of republican versus democrat quotes over the years could help determine if the newspaper favors a political party over the other. A neutral journal would equally represent speakers from both parties, on each debated topic. 
 To illustrate this idea, we can take a look at the repartition of the Republican's and Democrat's quotes about racism, for each of our three journals.
 
+**The New York Times**
 {% include nyt/NYT_R_VS_D_racism.html %}
+
+**CNN**
 {% include cnn/CNN_R_VS_D_racism.html %}
+
+**FOX**
 {% include fox/FOX_R_VS_D_racism.html %}
 
 
