@@ -55,12 +55,11 @@ We focus now not on the *speakers* themselves, but mostly on their *party*. Know
 
 {% include fox/fox_pie_parties.html %}
 
-**TODO** <!-- Exlpain?
-- checker proportion no party? est ce que ca veut dire que neutre?
-- nyt a bcp de no party: peut etre nyt parle moisn politique.
-- FOx font plus parler les autres party
-- en général plus de republicains: normal ya trump, et trum parle bcp comme on peut le voir dans le graph du dessus
-- proportion republicain et democrate? analyser et comparer!-->
+From these pie charts, we can compare the newspapers to each other. First of all, the Republican party is the most represented in all three newspapers, again this is not surprising given that Donald Trump is in charge of the US for most of the period of our data. On the other hand, it may be interesting to look at the ratio of Republican to Democrat speaking time (% Democrat / % Republican). For CNN and FOX, we have 0.64 and 0.65 respectively, which means that the Democratic party is less represented than the Republican party by about 35%. For the NYT we get a ratio of 0.80, which means that the Democrats are less represented than the Republicans by only 20%. This is another indication that the NYT is more Democratic than the other two newspapers. 
+
+Furthermore, the NYT has the largest percentage of 'No Party', which could mean a lot. One possible interpretation is that the paper talks less about politics, or if it does talk about politics, gives more space to people who are not affiliated with any party. 
+
+Finally, we can see that the 'Other Parties' are only marginally represented in these newspapers, showing the dominance of the two major parties 'Democrat' and 'Republican'. However, FOX news remains the most vocal of the other parties with 2.7%. 
 
 ### The most frequent words
 During the entire analysis, we tried to oppose two major parties: the Republican one and the Democratic one. We assumed that the parties distinguish themselves through the words that are used, the subjects that are adressed and how they're addressed. Therefore, we are first interested in seeing which words are the most used for each party. Are they different? Are some words significant for the party? 
