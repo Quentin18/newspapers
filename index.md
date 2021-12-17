@@ -40,11 +40,11 @@ Newspapers publish millions of quotations coming from millions of different pers
 
 All newspapers agree on at leat one point: from 2015 to 2020 all years combined, Donald Trump is by far **the** speaker in the news. We shouldn't be surprised by this result, as he has been the President of the Unite States most of these years. 
 
-**TODO** <!-- citer pour chaque journal quels sont les peronnalités, quelles infos on en tire?-->
-
 Let's remember that a newspaper that publishes the words of a certain person does not necessarily agree with him/her. 
 In fact, it is possible that the newspaper uses the words of this person against him or her, to criticize him/her. The example of Trump illustrates this case perfectly: Trump seems to be strongly present in the CNN. However, it would be very surprising if the CNN actually approved of all his words.
-Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. Nervertheless, it can provide some interesting clues...
+Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. Nervertheless, it can provide some interesting clues.
+
+We can see that six names are present in the top 10 speakers of each of the three journals: Donald Trump, Barack Obama, Hillary Clinton, Joe Biden, Nancy Pelosi and Bernie Sanders. These public figures can therefore be considered to have played a major role during the period 2015-2020 and do not indicate a potential politic bias of the newspaper. Let’s have a look at the remaining speakers. For the NYT, only Democratic politicians (Bill de Blasio, Elizabeth Warren, Chuck Schumer) or self-described Democratic public figures (Stephen Colbert) can be found. On the other hand, FOX NEWS only features Republican politicians (Lindsey Graham, Charles Krauthammer, Mitch McConnell). There is also 'Tucker Carlson', who has hosted 'Tucker Carlson Tonight' on Fox News since 2016, and describes himself as a Republican. For CNN we have more contrasting results, Elizabeth Warren for the Democratic party and Lindsay Graham Mike Pompeo and Mitch McConnell for the Republican party. These results already give us a clue about the political opinion of the NYT, which mainly gives the floor to Democrats, and FOX NEWS, which mainly gives the floor to Republicans.
 
 ### What about the party distribution in the newspapers?
 We focus now not on the *speakers* themselves, but mostly on their *party*. Knowing the party of each speaker (Republican, Democrat, another party or no identified party), we can group together all the speakers that belong to the same party and assess the importance attributed to each of them in the newspapers. Can we already perceive a news coverage bias towards one of the parties?
