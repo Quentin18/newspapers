@@ -132,9 +132,18 @@ Thus, with our method, trying to determine the political bias of the newspapers 
 
 Instead of trying to determine what every actor *thinks* of a topic, we could simply quantify how much they *talk* about it. Indeed, the coverage of an event or a debated subject can also give us information about a newspaper's political opinion. The more a journal talks about a subjet, the more it cares about it. 
 
-**TODO** <!-- Sentiment analysis per topic for each newspaper -->
+We thus proceeded to analyze the coverage of different topics over the years, in each of the three newspapers. Below is the quotes distribution per month from 2015 to 2020 for the New York Times. 
 
-<!-- Figure: Barplot frequency of quotes about each topic -->
+{% include nyt/nyt_sentiment_scores_parties.html %}
+
+Clearly the topics are all covered regularly. What is interesting is that we can identify major events simply by looking at the peaks in quotes repartition: for example, the number of quotes about racism exploded in August 2017, right at the time of the white nationalist walk in Charlottesville. This peak is even more remarkable in the CNN quotes count, and way less present for Fox. As we can consider CNN as clearly leaning towards the Democrats’ side, and Fox clearly towards the Republican’s one, this proves that looking at the quotes repartition can help us analyze a newspaper’s political orientation.
+
+More than the general quotes about a topic, what gives us further information on a journal’s political side is the speaking time allocated to each party. Comparing the distribution of republican versus democrat quotes over the years could help determine if the newspaper favors a political party over the other. A neutral journal would equally represent speakers from both parties, on each debated topic. 
+To illustrate this idea, we can take a look at the repartition of the Republican's and Democrat's quotes about racism, for each of our three journals.
+
+{% include nyt/NYT_R_VS_D_racism.html %}
+{% include cnn/CNN_R_VS_D_racism.html %}
+{% include fox/FOX_R_VS_D_racism.html %}
 
 
 
