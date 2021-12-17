@@ -40,11 +40,11 @@ Newspapers publish millions of quotations coming from millions of different pers
 
 All newspapers agree on at leat one point: from 2015 to 2020 all years combined, Donald Trump is by far **the** speaker in the news. We shouldn't be surprised by this result, as he has been the President of the Unite States most of these years. 
 
+**TODO** <!-- citer pour chaque journal quels sont les peronnalités, quelles infos on en tire?-->
+
 Let's remember that a newspaper that publishes the words of a certain person does not necessarily agree with him/her. 
 In fact, it is possible that the newspaper uses the words of this person against him or her, to criticize him/her. The example of Trump illustrates this case perfectly: Trump seems to be strongly present in the CNN. However, it would be very surprising if the CNN actually approved of all his words.
-Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. Nervertheless, it can provide some interesting clues.
-
-We can see that six names are present in the top 10 speakers of each of the three journals: Donald Trump, Barack Obama, Hillary Clinton, Joe Biden, Nancy Pelosi and Bernie Sanders. These public figures can therefore be considered to have played a major role during the period 2015-2020 and do not indicate a potential politic bias of the newspaper. Let’s have a look at the remaining speakers. For the NYT, only Democratic politicians (Bill de Blasio, Elizabeth Warren, Chuck Schumer) or self-described Democratic public figures (Stephen Colbert) can be found. On the other hand, FOX NEWS only features Republican politicians (Lindsey Graham, Charles Krauthammer, Mitch McConnell). There is also 'Tucker Carlson', who has hosted 'Tucker Carlson Tonight' on Fox News since 2016, and describes himself as a Republican. For CNN we have more contrasting results, Elizabeth Warren for the Democratic party and Lindsay Graham Mike Pompeo and Mitch McConnell for the Republican party. These results already give us a clue about the political opinion of the NYT, which mainly gives the floor to Democrats, and FOX NEWS, which mainly gives the floor to Republicans.
+Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. Nervertheless, it can provide some interesting clues...
 
 ### What about the party distribution in the newspapers?
 We focus now not on the *speakers* themselves, but mostly on their *party*. Knowing the party of each speaker (Republican, Democrat, another party or no identified party), we can group together all the speakers that belong to the same party and assess the importance attributed to each of them in the newspapers. Can we already perceive a news coverage bias towards one of the parties?
@@ -130,11 +130,11 @@ We can still visualize the sentiment analysis scores for the 3 newspaper, even i
 
 ### Political orientation of speakers and newspapers
 
-Another way of assessing the pertinence of the sentiment scores to indicate the ideology of the seakers is by projecting the speaker-specific scores into a substantively meaningful vector space, that has a maximum variance. Using standard dimensionality reduction techniques such as principal component analysis (PCA), we can then visualize the repartition of speakers according to their sentiment scores.
-In this section, we focused on the identified athors of the quotes that belong to one of the two selected parties. We tried to emphasize the demarcation of the parties using the speaker-pecific sentiment scores. Are the sentiment scores attributed to each speaker meaningful to describe his/her political orientation? In other words, can we use the sentiment scores to distinguish speakers from opposing parties?
-Each datapoint in the plots correspond to a speaker caracterized by the sentiment scores averaged over all of his/her quotations.
+Another way of assessing the pertinence of the sentiment scores to indicate the ideology of the speakers is by projecting the speaker-specific scores into a substantively meaningful vector space, that has a maximum variance. Using standard dimensionality reduction techniques such as principal component analysis (PCA), we can then visualize the repartition of speakers according to their sentiment scores.
+In this section, we focused on the identified authors of the quotes that belong to one of the two selected parties. We tried to emphasize the demarcation of the parties using the speaker-specific sentiment scores. Are the sentiment scores attributed to each speaker meaningful enough to describe their political orientation? In other words, can we use the sentiment scores to distinguish speakers from opposing parties?
+Each datapoint in the plots corresponds to a speaker and is characterized by the sentiment scores averaged over all of their quotations.
 
-Note that only two components are selected, for visualisation purposes and we take the New York Time results as example.
+The New York Time's results are taken as example. Note that for visualisation purposes, only two components are selected.
 
 {% include nyt/nyt_pca_2d.html %}
 
@@ -142,7 +142,7 @@ The results are coherent with our inital conclusions: **the sentiment scores alo
 Indeed, we would have hoped to see two distinct groups of people in the plots: the republicans on one side and the democrats on the other. This would have been the ideal scenario, which would have shown that we can indeed separate the authors from different parties by assessing the sentiments in their words. But clearly, it is not the case: Republicans and Democrats are indistinguishable.
 Let's zoom in the center of the plots, to assess the personality that has a value close to 0 for both components. This speaker is well known: it is the current President of the United_States. In fact, when looking at the data, the topic-specific sentiment scores that describe Donald Trump are very close to zero.
 How is that possible?
-Donald Trump is known for his drastic thoughts, having either very positive or very negative opinions on each topic, but very rarely neutral ones. However, by averaging the sentiment scores over each of his quotations, they cancel each other and we get an average score approaching zero, meaning a neutral point of view. This conclusion isn't accurate and show that to assess the global opinion of a personality, one can't simply average the sentiment scores over all of his/her quotes. 
+Donald Trump is known for his drastic thoughts, having either very positive or very negative opinions on each topic, but very rarely neutral ones. However, by averaging the sentiment scores over each of his quotations, they cancel each other and we get an average score approaching zero, meaning a neutral point of view. This conclusion isn't accurate and show that to assess the global opinion of a personality, one can't simply average the sentiment scores over all of their quotes. 
 Thus, with our method, trying to determine the political bias of the newspapers by analyzing what people say isn't optimal. 
 
 ---
