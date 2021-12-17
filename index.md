@@ -172,3 +172,16 @@ Instead of trying to determine what every actor *thinks* of a topic, we could si
 ## References
 
 **TODO** <!-- Add references -->
+
+
+<div class="row">
+    <div class="col-4">
+        {% include nyt/nyt_pie_parties.html %}
+    </div>
+    <div class="col-4">
+        {% include cnn/cnn_pie_parties.html %}
+    </div>
+    <div class="col-4">
+        {% include fox/fox_pie_parties.html %}
+    </div>
+</div>
