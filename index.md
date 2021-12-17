@@ -67,8 +67,10 @@ During the entiere analysis, we tried to oppose the two major parties: the repub
 <!-- Figure: Wordcloud for each newspaper -->
 <img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
 <img class="image" src="images/wordclouds/wordcloud_republican_party.svg" alt="Wordcloud Republican Party" />
+<!-- 
 <img class="image" src="images/wordclouds/wordcloud_other_party.svg" alt="Wordcloud Other Party" />
 <img class="image" src="images/wordclouds/wordcloud_no_party.svg" alt="Wordcloud No Party" />
+-->
  
  **TODO** <!-- Analyse des Occurences of words (wordclouds), est ce que on garderait pas seulement les republicains et les democrates? -->
 
@@ -133,23 +135,16 @@ Another way of assessing the pertinence of the sentiment scores to indicate the 
 In this section, we focused on the identified athors of the quotes that belong to one of the two selected parties. We tried to emphasize the demarcation of the parties using the speaker-pecific sentiment scores. Are the sentiment scores attributed to each speaker meaningful to describe his/her political orientation? In other words, can we use the sentiment scores to distinguish speakers from opposing parties?
 Each datapoint in the plots correspond to a speaker caracterized by the sentiment scores averaged over all of his/her quotations.
 
-Note that only two components are selected, for visualisation purposes.
-
-<!-- Figure: Results of PCA with graph of speakers and newspapers, on en met que un non de PCA graph??? -->
+Note that only two components are selected, for visualisation purposes and we take the New York Time results as example.
 
 {% include nyt/nyt_pca_2d.html %}
 
-{% include cnn/cnn_pca_2d.html %}
-
-{% include fox/fox_pca_2d.html %}
-
 The results are coherent with our inital conclusions: **the sentiment scores alone are not sufficient to describe one's political opinion**.
-
+Indeed, we would have hoped to see two distinct groups of people in the plots: the republicans on one side and the democrats on the other. This would have been the ideal scenario, which would have shown that we can indeed separate the authors from different parties by assessing the sentiments in their words. But clearly, it is not the case: Republicans and Democrats are indistinguishable.
+Let's zoom in the center of the plots, to assess the personality that has a value close to 0 for both components. This speaker is well known: it is the current President of the United_States. In fact, when looking at the data, the topic-specific sentiment scores that describe Donald Trump are very close to zero.
+How is that possible?
+Donald Trump is known for his drastic thoughts, having either very positive or very negative opinions on each topic, but very rarely neutral ones. However, by averaging the sentiment scores over each of his quotations, they cancel each other and we get an average score approaching zero, meaning a neutral point of view. This conclusion isn't accurate and show that to assess the global opinion of a personality, one can't simply average the sentiment scores over all of his/her quotes. 
 Thus, with our method, trying to determine the political bias of the newspapers by analyzing what people say isn't optimal. 
-
-<!-- explain again that we have bad result, and illustrate what we said above (the limitaitons of the sentiment analysis) with Trump case: f we zoom in we see that the point that has a zero PC1 and PC2 is actually representing Donald Trump. he has a PCA score of 0 in both compoenents, and also in the sentiment score: but Trump isn't neutral ? 
-
-Donald Trump is known for his drastics thoughts, having either very positive or very negative opinions on each topic, but very rarely neutral ones. However, by averaging the sentiment scores over each of his quotations, they cancel each other and we get an average score approaching zero, meaning a neutral point of view. This isn't accurate. -->
 
 ---
 ## Topic analysis: what are the main topics in newspapers?
