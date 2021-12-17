@@ -109,14 +109,6 @@ To sum up, the emotions that are perceived in one's quote are not direclty repre
 
 <!-- complete if not enough-->
 
-<!-- cette partie on va pas la faire surement!
-#### Sentiment analysis: comparison between the different journals
-
-We can still visualize the sentiment analysis scores for the 3 newspaper, even if the results are not optimal.
-**TODO** <!-- Sentiment analysis per topic for each newspaper-->
-
-<!-- Figure: Barplot average of compound score for each topic, each newspaper -->
--->
 
 ### Political orientation of speakers and newspapers
 
