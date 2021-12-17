@@ -65,7 +65,9 @@ Finally, the *Other Parties* are only marginally represented in these newspapers
 During the entire analysis, we tried to oppose two major parties: the Republican one and the Democratic one. We assumed that the parties distinguish themselves through the words that are used, the subjects that are adressed and how they're addressed. Therefore, we are first interested in seeing which words are the most used for each party. Are they different? Are some words significant for the party? 
 
 <!-- Figure: Wordcloud for each newspaper -->
+Here is the wordcloud for the Democratic party
 <img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
+And the wordcloud for the Republican party
 <img class="image" src="images/wordclouds/wordcloud_republican_party.svg" alt="Wordcloud Republican Party" />
 <!-- 
 <img class="image" src="images/wordclouds/wordcloud_other_party.svg" alt="Wordcloud Other Party" />
@@ -83,21 +85,6 @@ Our idea was to use Sentiment Analysis to quantify the opinion of each party on 
 
 {% include topics_table.html %}
 
-<!-- 
-<ul class="default">
-    <li>immigration</li>
-    <li>health care</li>
-    <li>climate change</li>
-    <li>Trump</li>
-    <li>abortion</li>
-    <li>women’s rights</li>
-    <li>racisms</li>
-    <li>violence</li>
-    <li>war and military action</li>
-    <li>taxes</li>
-    <li>coal industry</li>
-</ul>
---> 
 
 The 11 topics were specifically chosen because they are current topics that are often present in the news. Since these topics tend to create a lot of debates in the United States within the different parties, and since we believe that each party has a well-defined opinion on each of these subjects, we believe that it would be possible to determine one's political opinion based on his/her opinion about each topic.
 
