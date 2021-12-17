@@ -130,7 +130,9 @@ We can still visualize the sentiment analysis scores for the 3 newspaper, even i
 ### Political orientation of speakers and newspapers
 
 Another way of assessing the pertinence of the sentiment scores to indicate the ideology of the seakers is by projecting the speaker-specific scores into a substantively meaningful vector space, that has a maximum variance. Using standard dimensionality reduction techniques such as principal component analysis (PCA), we can then visualize the repartition of speakers according to their sentiment scores.
-In this section, we focused on the identified athors of the quotes that belong to one of the two selected parties. We tried to emphasize the demarcation of the parties using the speaker-pecific sentiment scores. Are the sentiment scores attributed to each speaker meaningful to describe its political orientation? In other words, can we use the sentiment scores to distinguish speakers from opposing parties?
+In this section, we focused on the identified athors of the quotes that belong to one of the two selected parties. We tried to emphasize the demarcation of the parties using the speaker-pecific sentiment scores. Are the sentiment scores attributed to each speaker meaningful to describe his/her political orientation? In other words, can we use the sentiment scores to distinguish speakers from opposing parties?
+Each datapoint in the plots correspond to a speaker caracterized by the sentiment scores averaged over all of his/her quotations.
+
 Note that only two components are selected, for visualisation purposes.
 
 <!-- Figure: Results of PCA with graph of speakers and newspapers, on en met que un non de PCA graph??? -->
@@ -141,10 +143,9 @@ Note that only two components are selected, for visualisation purposes.
 
 {% include fox/fox_pca_2d.html %}
 
-The results are coherent with our inital conclusions: **the sentiment scores alone can't describe one's political opinion**.
+The results are coherent with our inital conclusions: **the sentiment scores alone are not sufficient to describe one's political opinion**.
 
-Thus, with our method, trying to determine the political bias of the newspapers by analyzing what people say isn't optimal.
-
+Thus, with our method, trying to determine the political bias of the newspapers by analyzing what people say isn't optimal. 
 
 <!-- explain again that we have bad result, and illustrate what we said above (the limitaitons of the sentiment analysis) with Trump case: f we zoom in we see that the point that has a zero PC1 and PC2 is actually representing Donald Trump. he has a PCA score of 0 in both compoenents, and also in the sentiment score: but Trump isn't neutral ? 
 
