@@ -67,19 +67,14 @@ During the entire analysis, we tried to oppose two major parties: the Republican
 <!-- Figure: Wordcloud for each newspaper -->
 **Wordcloud for the Democratic party**
 <br>
-
 <img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
 
 <br>
 
 **Wordcloud for the Republican party**
 <br>
-
 <img class="image" src="images/wordclouds/wordcloud_republican_party.svg" alt="Wordcloud Republican Party" />
-<!-- 
-<img class="image" src="images/wordclouds/wordcloud_other_party.svg" alt="Wordcloud Other Party" />
-<img class="image" src="images/wordclouds/wordcloud_no_party.svg" alt="Wordcloud No Party" />
--->
+
  
 The comparison of these two worldclouds highlights the similarities as well as differences between the two parties. Indeed, even if they are drastically opposed on many topics, there are some similarities in the words that are used: *Trump* is an exmaple. For the Democratic Party, the terms 'issue' 'right' 'woman' 'try' and 'support' are interesting because they reflect, in a very simplified way, the Democratic ideologies. On the Republican side, the terms 'America' and 'great' appear, consistent with the slogan 'Make America Great Again'. There is also a strong use of 'country' 'United State' 'State' and 'nation' in line with the nationalist-ish viewpoint of the Republicans. Finally, these plots allow us to ensure that the selected quotations are representative of the divergent opinions between Republicans and Democrats, and that it is therefore interesting to study them more precisely using a sentimental analysis.
 
@@ -143,7 +138,7 @@ We thus proceeded to analyze the coverage of different topics over the years, in
 **FOX**
 {% include fox/fox_topics_count.html %}
 
-Clearly the topics are all covered regularly. What is interesting is that we can identify major events simply by looking at the peaks in quotes repartition: for example, the number of quotes about racism exploded in August 2017, right at the time of the white nationalist walk in Charlottesville. This peak is even more remarkable in the CNN quotes count, and way less present for Fox. As we can consider CNN as clearly leaning towards the Democrats’ side, and Fox clearly towards the Republican’s one, this proves that looking at the quotes repartition can help us analyze a newspaper’s political orientation.
+Clearly the topics are all covered regularly. What is interesting is that we can identify major events simply by looking at the peaks in quotes repartition: for example, the number of quotes about racism in the NYT exploded in August 2017, right at the time of the white nationalist walk in Charlottesville. This peak is even more remarkable in the CNN quotes count, and way less present for Fox. This shows a clear gap in interest in this event between the different newspapers. As we can consider CNN as leaning towards the Democrats’ side, and Fox towards the Republican’s one, this proves that looking at the quotes repartition can help us analyze a newspaper’s political orientation.
 
 More than the general quotes about a topic, what gives us further information on a journal’s political side is the speaking time allocated to each party. Comparing the distribution of republican versus democrat quotes over the years could help determine if the newspaper favors a political party over the other. A neutral journal would equally represent speakers from both parties, on each debated topic. 
 To illustrate this idea, we can take a look at the repartition of the Republican's and Democrat's quotes about racism, for each of our three journals.
