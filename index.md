@@ -149,6 +149,9 @@ At first sight, the repartition of Republican quotes over the Democrat ones seem
 
 ## Conclusion
 
+What did we learn? Assessing the political orientation of a newspaper is a difficult task. The speaking-time of personalities are indeed relevant to show how much a newspaper emphasize the ideas of a specific person. The New York Times’ opinion seems to drift towards a more Democratic opinion, confirming our initial assumptions. Similarly, the Fox news seems to emphasize the Republican ideologies, as we assumed. 
+Guessing one’s opinion about several topics based on a simple sentiment analysis wasn’t relevant, mostly because of the method we used, ignoring the context of the words. But when focusing on how people talked about the topics on the media, we could highlight some some interesting points, allowing us to confirm the previous results. 
+
 Of course, all these arguments are simply clues that are not sufficient to categorize fully a media as Democratic or Republican. The three media selected are internationally recognized and amongst the most influent ones, if not in the world at least in the US, so they must keep a part of balance between political parties. However, an inside analysis of their publications (as we just did) can give us cues about what is the true opinion of the journals, and can help us read between the lines when getting informed about important topics. Everyone should  be able to build its own opinion about a topic, and reading a newspaper that is biased without knowing it clearly affects how the reader will view the subject. This is why more analyses of media’s content should be conducted, on larger scales and going deeper than what we did here, to alert the public about the possible influence it may experience.  
 
 ---
