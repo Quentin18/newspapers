@@ -2930,6 +2930,10 @@ input, select, textarea {
 			text-align: justify;
 		}
 
+		#main footer.major p {
+			text-align: center;
+		}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
