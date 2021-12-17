@@ -184,10 +184,6 @@ input, select, textarea {
 	}
 
 /* Container */
-	
-	.page__content {
- 		 text-align: justify;
-	}
 
 	.container {
 		margin: 0 auto;
