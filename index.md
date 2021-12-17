@@ -2,11 +2,11 @@
 
 ### Abstract
 
-Everyday, millions of articles are published in the newspapers. Americans have their favorite journal, whether it is the New York Times, the CNN, the Fox News or any other journal that everyday publishes the latest breaking news. News coverage can be very influential, affecting one’s opinion through the information it provides or the emotional reaction it generates on the reader. Most of these newspapers claim having a neutral political opinion, but in general, a newspaper’s phrasing or language is specifically chosen with the intention of exposing a certain political outcome. Thus, the reader’s opinion is easily influenced by the content published in its favorite journal, although he’s not conscious of it. For example, CNN is known to emphasize the democrat opinion while the Fox News is known for its republican ideas.
+Everyday, millions of articles are published in the newspapers. All Americans have a favorite newspaper, whether it is the New York Times, the CNN, the Fox News or any other journal that everyday publishes the latest breaking news. News coverage can be very influential, affecting one’s opinion through the information it provides or the emotional reaction it generates on the reader. Most of these newspapers claim having a neutral political opinion, but in general, a newspaper’s phrasing or language is specifically chosen with the intention of exposing a certain political outcome. Thus, the reader’s opinion is easily influenced by the content published in its favorite journal, although he’s not conscious of it. For example, CNN is known to emphasize the democratic opinion while the Fox News is known for its republican ideas.
 Analyzing the content of a newspaper is therefore a good way to verify its political orientation and the political ideas it wants to transmit. This data story presents a quotation based analysis of newspapers and their political bias.
 
 ### Method
-The ultimate goal of this analysis is to define the political orientation the newspapers. Indeed, is it possible to guess the political opinion of a newspaper based only on its content? Popular newspapers should be neutral in the way they present the news, but are they really neutral? Otherwise, which political parties do they support the most?
+The ultimate goal of this analysis is to define the political orientation the newspapers. Indeed, is it possible to guess the opinion of a newspaper based only on its content? Popular newspapers should be neutral in the way they present the news, is it really the case? Otherwise, which political party do they support the most?
 This is adressed through several questions:
 <ul class="default">
     <li>Who are the main speakers quoted in the newspapers and from what political party are they?</li>
@@ -14,22 +14,22 @@ This is adressed through several questions:
     <li>Are there any specific topics that are frequently addressed by newspapers? Are those topics relevant to define the newspapers' political opinion?</li>
 </ul>
 
-In the following, the Quotebank dataset regrouping quotations published in multiple english newspapers between 2015 and 2020 is analysed. We focused our intention on 3 newspapers: the New York Times, the CNN and the Fox News. The determination of the political orientation of the journals is based on several chosen topics that are commonly addressed in the USA and on which republicans and democrats tend to argue. 
-We use dictionaries related to the topics to select the interesting quotations and sentiment analysis as indicator of one's opinion. Statistical tests as well as dimensionality reduction will help us interpret our data. 
-Additionally, we look at the way the current topics are presented in the newspapers to help us assess their political opinion. 
+In the following, the Quotebank dataset regrouping quotations published in multiple english newspapers between 2015 and 2020 is analysed. We focused our attention on 3 newspapers: the New York Times, the CNN and the Fox News. The determination of the political orientation of the journals is based on topics that are commonly addressed in the USA and on which Republicans and Democrats tend to argue a lot. 
+We use dictionaries related to the topics to select the interesting quotations and sentiment analysis as indicator of one's opinion. Statistical tests as well as dimensionality reduction techniques will help us interpret our data. 
+Additionally, we look at the way the current topics are presented in the newspapers to help us assess their political preference. 
 
-Throughout the whole analysis, the results coming from the 3 different newspapers are compared, keeping in mind their respective political bias. 
+Throughout the whole analysis, we compare the the results from the 3 different newspapers, keeping in mind their respective political bias assumptions. 
 
 ### Newspapers
 
 {% include newspapers.html %}
 
 ## First analyses
-A first overview of our data set allowed us to extract some interesting information.
+A first overview of our dataset allowed us to extract some interesting information.
 
 ### Who are the speakers?
 
-The news publishes millions of words coming from millions of different personalities. However, some speakers can be reccurent and the recurrent ones can also be specific to each newspaper. Thus, the speaking time of a peronality could be a hint to show how much the newspaper agrees with his or her ideas and would want to emphasize them! In other words, is the importance that a newspaper gives to a person by publishing his words already a clue as to the opinion of the newspaper? 
+Newspapers publish millions of quotations coming from millions of different personalities. However, some speakers may be published more than others. We call them recurrent speakers. In addition, the recurrent speakers can also be specific to each newspaper. Thus, the speaking time of a peronality in a newspaper could be a hint to show how much the journal agrees with his or her ideas and would want to emphasize them! In other words, is the importance that a newspaper gives to a person by publishing his words already a clue as to the opinion of the newspaper? 
 
 <!-- Figure: Barplot for each newspaper -->
 {% include nyt/nyt_bar_top_speakers.html %}
@@ -38,16 +38,17 @@ The news publishes millions of words coming from millions of different personali
 
 {% include fox/fox_bar_top_speakers.html %}
 
-All newspapers agree on at leat one point: from 2015 to 2020 all years combined, Donald Trump is by far **the** speaker in the news. We shouldn't be surprise by this result, as he has been the President of the Unite States most of these years. 
+All newspapers agree on at leat one point: from 2015 to 2020 all years combined, Donald Trump is by far **the** speaker in the news. We shouldn't be surprised by this result, as he has been the President of the Unite States most of these years. 
 
 **TODO** <!-- citer pour chaque journal quels sont les peronnalités, quelles infos on en tire?-->
 
-Let's remember that a newspaper that publishes the words of a certain person does not necessarily agree with them. 
-In fact, it is possible that the newspaper uses the words of this person against him or her, to criticize him/her. The example of Trump illustrates this case perfectly: Trump seems to be strongly present in the CNN, however it would be very surprising if the CNN approved of all his words.
-Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. Nervertheless, it can provide some clues.
+Let's remember that a newspaper that publishes the words of a certain person does not necessarily agree with him/her. 
+In fact, it is possible that the newspaper uses the words of this person against him or her, to criticize him/her. The example of Trump illustrates this case perfectly: Trump seems to be strongly present in the CNN. However, it would be very surprising if the CNN actually approved of all his words.
+Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. Nervertheless, it can provide some interesting clues...
 
 ### What about the party distribution in the newspapers?
-We focus now not on the *speakers* themselves, but mostly on their *party*. Knowing the party of each speaker (republican, democrat, another party or no identified party), we can group together all the speakers that belong to the same party and assess the importance attributed to each party in the newspapers. Can we already perceive a news coverage bias towards one of the paries?
+We focus now not on the *speakers* themselves, but mostly on their *party*. Knowing the party of each speaker (republican, democrat, another party or no identified party), we can group together all the speakers that belong to the same party and assess the importance attributed to each of them in the newspapers. Can we already perceive a news coverage bias towards one of the parties?
+
 {% include nyt/nyt_pie_parties.html %}
 
 {% include cnn/cnn_pie_parties.html %}
@@ -56,13 +57,13 @@ We focus now not on the *speakers* themselves, but mostly on their *party*. Know
 
 **TODO** <!-- Exlpain?
 - checker proportion no party? est ce que ca veut dire que neutre?
- - nyt a bcp de no party: peut etre nyt parle moisn politique.
+- nyt a bcp de no party: peut etre nyt parle moisn politique.
 - FOx font plus parler les autres party
 - en général plus de republicains: normal ya trump, et trum parle bcp comme on peut le voir dans le graph du dessus
 - proportion republicain et democrate? analyser et comparer!-->
 
 ### The most frequent words
-During the entiere analysis, we tried to oppose the two major parties: the repubublican one and the democratic one. We assumed that the parties distinguish themsleves through the words they use, the subjects they adress and how they address them. Therefore, we highlighted the differences in the words that were used the most in the two major opposing parties.
+During the entire analysis, we tried to oppose two major parties: the Republican one and the Democratic one. We assumed that the parties distinguish themsleves through the words that are used, the subjects that are adressed and how they are addressed. Therefore, we highlighted the differences in the words that were used the most in the two major opposing parties.
 
 <!-- Figure: Wordcloud for each newspaper -->
 <img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
