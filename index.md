@@ -133,9 +133,9 @@ We can still visualize the sentiment analysis scores for the 3 newspaper, even i
 
 {% include fox/fox_pca_2d.html %}
 
-<!-- explain again that we have bad result, and illustrate what we said above (the limitaitons of the sentiment analysis) with Trump case: he has a PCA score of 0 in both compoenents, and also in the sentiment score: but Trump isn't neutral ? 
+<!-- explain again that we have bad result, and illustrate what we said above (the limitaitons of the sentiment analysis) with Trump case: f we zoom in we see that the point that has a zero PC1 and PC2 is actually representing Donald Trump. he has a PCA score of 0 in both compoenents, and also in the sentiment score: but Trump isn't neutral ? 
 
-we suppose that Donald Trump isn't neutral at all and instead has very positive or very negative opinion on each topic. However, by averaging the sentiment scores over each of his quotations, they cancel each other and we get an average neutral score. This isn't accurate. -->
+Donald Trump is known for his drastics thoughts, having either very positive or very negative opinions on each topic, but very rarely neutral ones. However, by averaging the sentiment scores over each of his quotations, they cancel each other and we get an average score approaching zero, meaning a neutral point of view. This isn't accurate. -->
 
 ---
 ## Topic analysis: what are the main topics in newspapers?
