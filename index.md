@@ -129,18 +129,24 @@ Instead of trying to determine what every actor *thinks* of a topic, we could si
 
 We thus proceeded to analyze the coverage of different topics over the years, in each of the three newspapers. Below is the quotes distribution per month from 2015 to 2020 for the New York Times, CNN and Fox. The topic of the quote can be selected using the dropdown menu on the left.
 
-**The New York Times** {% include nyt/nyt_topics_count.html %}
-**CNN** {% include cnn/cnn_topics_count.html %}
-**FOX** {% include fox/fox_topics_count.html %}
+**The New York Times** 
+{% include nyt/nyt_topics_count.html %}
+**CNN** 
+{% include cnn/cnn_topics_count.html %}
+**FOX** 
+{% include fox/fox_topics_count.html %}
 
 Clearly the topics are all covered regularly. What is interesting is that we can identify major events simply by looking at the peaks in quotes repartition: for example, the number of quotes about racism in the NYT exploded in August 2017, right at the time of the white nationalist walk in Charlottesville. This peak is even more remarkable in the CNN quotes count, and way less present for Fox. This shows a clear gap in interest in this event between the different newspapers. On one hand we find the NYT and CNN, which by mentioning the subject many times, seem to have a great interest in this event. On the other hand we have Fox News, which expresses itself little on the event and thus shows a lack of interest in it. However, if we look at the political level, the the white nationalist walk in Charlottesville is a series of rallies of the American far right. Thus, by a broad generalisation, we attribute this event to the Republican Party (right). It would therefore be logical for Republican newspapers to mention but not to polemicise on this subject and for Democratic newspapers to express themselves more on this event in opposition to their ideologues. By this reasoning, we would have the NYT and CNN more Democrat and Fox more Republican. This proves that looking at the quotes repartition can help us analyze a newspaper’s political orientation.
 
 More than the general quotes about a topic, what gives us further information on a journal’s political side is the speaking time allocated to each party. Comparing the distribution of republican versus democrat quotes over the years could help determine if the newspaper favors a political party over the other. A neutral journal would equally represent speakers from both parties, on each debated topic. 
 To illustrate this idea, we can take a look at the repartition of the Republican's and Democrat's quotes about racism, for each of our three journals.
 
-**The New York Times**{% include nyt/NYT_R_VS_D_racism.html %}
-**CNN**{% include cnn/CNN_R_VS_D_racism.html %}
-**FOX**{% include fox/FOX_R_VS_D_racism.html %}
+**The New York Times**
+{% include nyt/NYT_R_VS_D_racism.html %}
+**CNN**
+{% include cnn/CNN_R_VS_D_racism.html %}
+**FOX**
+{% include fox/FOX_R_VS_D_racism.html %}
 
 *Note: the values plotted on the graph are stacked, to see the contribution of each party use the interactive cursor*
 
