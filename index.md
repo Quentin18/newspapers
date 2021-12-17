@@ -54,7 +54,12 @@ We focus now not on the *speakers* themselves, but mostly on their *party*. Know
 
 {% include fox/fox_pie_parties.html %}
 
-**TODO** <!-- Exlpain? -->
+**TODO** <!-- Exlpain?
+- checker proportion no party? est ce que ca veut dire que neutre?
+ - nyt a bcp de no party: peut etre nyt parle moisn politique.
+- FOx font plus parler les autres party
+- en général plus de republicains: normal ya trump, et trum parle bcp comme on peut le voir dans le graph du dessus
+- proportion republicain et democrate? analyser et comparer!-->
 
 ### The most frequent words
 During the entiere analysis, we tried to oppose the two major parties: the repubublican one and the democratic one. We assumed that the parties distinguish themsleves through the words they use, the subjects they adress and how they address them. Therefore, we highlighted the differences in the words that were used the most in the two major opposing parties.
