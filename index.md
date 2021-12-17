@@ -29,7 +29,7 @@ A first overview of our dataset allowed us to extract some interesting informati
 
 ### Who are the speakers?
 
-Newspapers publish millions of quotations coming from millions of different personalities. However, some speakers may be published more than others. We call them recurrent speakers. In addition, the recurrent speakers can also be specific to each newspaper. Thus, the speaking time of a peronality in a newspaper could be a hint to show how much the journal agrees with his or her ideas and would want to emphasize them! In other words, is the importance that a newspaper gives to a person by publishing his words already a clue as to the opinion of the newspaper? 
+Newspapers publish millions of quotations coming from millions of different personalities. However, some speakers may be published more than others. We call them recurrent speakers. In addition, the recurrent speakers can also be specific to each newspaper. Thus, the speaking time of a personality in a newspaper could be a hint to show how much the journal agrees with their ideas and would want to emphasize them! In other words, is the importance that a newspaper gives to a person by publishing his words already a clue as to the opinion of the newspaper? 
 
 <!-- Figure: Barplot for each newspaper -->
 {% include nyt/nyt_bar_top_speakers.html %}
