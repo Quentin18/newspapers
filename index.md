@@ -40,14 +40,14 @@ Newspapers publish millions of quotations coming from millions of different pers
 
 All newspapers agree on at leat one point: from 2015 to 2020 all years combined, Donald Trump is by far **the** speaker in the news. We shouldn't be surprised by this result, as he has been the President of the Unite States most of these years. 
 
-We can see that six names are present in the top 10 speakers of each of the three journals: Donald Trump, Barack Obama, Hillary Clinton, Joe Biden, Nancy Pelosi and Bernie Sanders. These public figures can therefore be considered to have played a major role during the period 2015-2020 and do not indicate a potential politic bias of the newspaper. Let’s have a look at the remaining speakers. For the NYT, only Democratic politicians (Bill de Blasio, Elizabeth Warren, Chuck Schumer) or self-described Democratic public figures (Stephen Colbert) can be found. On the other hand, FOX NEWS only features Republican politicians (Lindsey Graham, Charles Krauthammer, Mitch McConnell). There is also 'Tucker Carlson', who has hosted 'Tucker Carlson Tonight' on Fox News since 2016, and describes himself as a Republican. For CNN we have more contrasting results, Elizabeth Warren for the Democratic party and Lindsay Graham Mike Pompeo and Mitch McConnell for the Republican party. These results already give us a clue about the political opinion of the NYT, which mainly gives the floor to Democrats, and FOX NEWS, which mainly gives the floor to Republicans.
+**TODO** <!-- citer pour chaque journal quels sont les peronnalités, quelles infos on en tire?-->
 
 Let's remember that a newspaper that publishes the words of a certain person does not necessarily agree with him/her. 
 In fact, it is possible that the newspaper uses the words of this person against him or her, to criticize him/her. The example of Trump illustrates this case perfectly: Trump seems to be strongly present in the CNN. However, it would be very surprising if the CNN actually approved of all his words.
 Considering this and considering the clear domination of Donald Trump in the news, one can not simply conclude one newspaper's ideas simply based on the importance it gives to each personality. Nervertheless, it can provide some interesting clues...
 
 ### What about the party distribution in the newspapers?
-We focus now not on the *speakers* themselves, but mostly on their *party*. Knowing the party of each speaker (republican, democrat, another party or no identified party), we can group together all the speakers that belong to the same party and assess the importance attributed to each of them in the newspapers. Can we already perceive a news coverage bias towards one of the parties?
+We focus now not on the *speakers* themselves, but mostly on their *party*. Knowing the party of each speaker (Republican, Democrat, another party or no identified party), we can group together all the speakers that belong to the same party and assess the importance attributed to each of them in the newspapers. Can we already perceive a news coverage bias towards one of the parties?
 
 {% include nyt/nyt_pie_parties.html %}
 
@@ -77,12 +77,10 @@ During the entire analysis, we tried to oppose two major parties: the Republican
 
 
 ## Sentiment analysis: party-specific opinions?
-The Wordclouds may have been useful to visualize what the different political parties talk the most about, but what if we want to compare their opinions on the same subjects? Let's go deeper in our thoughts now, by applying a sentiment analysis on different chosen topics.
+The Wordclouds may have been useful to visualise what the different political parties talk the most about, but what if we want to compare their opinions on the same subjects? Let's go deeper in our thoughts now, by applying a **Sentiment Analysis** on different chosen topics.
 
 ### Topics in the newspapers
-Our idea was to use sentiment analysis to quantify the opinion of each party on specific topics. For both Democrat and Republican speakers, we collected the quotes talking about several specific topics that are given in the table below. Next to each topic are shown some example words that we used to generate a complete dictionnary.
-
-<!-- List topics, explain method -->  <!-- A QUEL POINT FAUT VRAIMENT EXPLIQUER LES METHODES DANS LA DATASTORY? -->
+Our idea was to use Sentiment Analysis to quantify the opinion of each party on specific topics. For both Democrat and Republican speakers, we collected the quotes talking about  the different topics that are given in the table below. Next to each topic are shown some example words that we used to generate a complete dictionnary.
 
 {% include topics_table.html %}
 
@@ -102,7 +100,7 @@ Our idea was to use sentiment analysis to quantify the opinion of each party on 
 </ul>
 --> 
 
-The 11 topics were specially chosen because they are current topics that are often found in the news. Since these topics tend to create debate in the United States within the different parties, and since we believe that each party has a well-defined opinion on each of these subjects, we believe that it would be possible to determine one's political opinion based on his/her opinion on each individual topic.
+The 11 topics were specifically chosen because they are current topics that are often present in the news. Since these topics tend to create a lot of debates in the United States within the different parties, and since we believe that each party has a well-defined opinion on each of these subjects, we believe that it would be possible to determine one's political opinion based on his/her opinion about each topic.
 
 #### Can we use sentiment analysis to compare the political parties?
 For each of these topics, we computed the mean opinion score for each party. The scores range from **-1** (for a **negative** opinion) to **+1** (for a **positive** opinion).  
@@ -111,7 +109,7 @@ We then proceeded to do the same analysis separately with our 3 newspaper's quot
 <!-- Figure: Barplot average of compound score for each topic, each party -->
 {% include sentiment_scores_nyt.html %}
     
-Clearly, the sentiment analysis results are not the ones expected. Following our results, we would conclude that both parties tend to agree on most of the topics: they're against war and violence or have very positie emotions towards Donald Trump for example. Some results may possible, but we should at least observe a clear demarcation in the opinion scores on topics such as tax or health care, on which both parties are drastically opposed. On the contrary, in our results, there is little to no significant difference between Democrats and Republicans. Furthemore, as most of the mean sentiment scores are very close to 0, does that mean that the newspapers have a general neutral opinion on each topic? And do Republicans really have a neutral opinion on immigration? Neutral emotions towards racism? It seems absurd to us to make such conclusions, meaning that **our sentiment analysis was unsuccessful**, and we can't use it to determine any news coverage bias.
+Clearly, the sentiment analysis results are not the ones expected. Following these results, we would conclude that both parties tend to agree on most of the topics: they're against war and violence and have very positive emotions towards Donald Trump for example. Some results may possible, but we should at least observe a clear demarcation in the opinion scores on topics such as tax or health care, on which both parties are drastically opposed. On the contrary, in our results, there is little to no significant difference between Democrats and Republicans. Furthemore, as most of the mean sentiment scores are very close to 0, does that mean that the newspapers have in general a neutral opinion on each of the topics? And do Republicans really have a neutral opinion on immigration? Waht about neutral emotions towards racism? It seems absurd to make such conclusions, meaning that **our sentiment analysis was unsuccessful**, and we can't use it to determine any news coverage bias.
 
 <!-- Table: topics with significant difference or not (?) -->
 
