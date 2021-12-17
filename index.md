@@ -66,10 +66,15 @@ During the entire analysis, we tried to oppose two major parties: the Republican
 
 <!-- Figure: Wordcloud for each newspaper -->
 **Here is the wordcloud for the Democratic party**
-<img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
 <br>
+
+<img class="image" src="images/wordclouds/wordcloud_democratic_party.svg" alt="Wordcloud Democratic Party" />
+
+<br>
+
 **And the wordcloud for the Republican party**
 <br>
+
 <img class="image" src="images/wordclouds/wordcloud_republican_party.svg" alt="Wordcloud Republican Party" />
 <!-- 
 <img class="image" src="images/wordclouds/wordcloud_other_party.svg" alt="Wordcloud Other Party" />
