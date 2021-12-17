@@ -102,7 +102,7 @@ Clearly, the Sentiment Analysis results are not the expected ones. Following the
 
 *Why is it the case?* 
 We used a simple pretrained model for our sentiment analysis, based on emotions. In addition, the Sentiment Analysis shouldn't be considered optimal for the difficult task of computing the opinions towards a topic. In fact, the way our Sentiment Analysis was built is by only considering the positive and negative words in the quotations, without taking into account the context of the words. Therefore, two quotations that have an opposite meaning on the same topic can have the same sentiment score, just because both quotations use positive key words or on the contrary negative ones.
-To sum up, the emotions that are perceived in one's quote are not direclty representative of the speaker's opinion wthout the context.
+To sum up, the emotions that are perceived in one's quote are not directly representative of the speaker's opinion without the context.
 
 <!-- complete if not enough-->
 
