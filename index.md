@@ -148,7 +148,7 @@ To illustrate this idea, we can take a look at the repartition of the Republican
 **FOX**
 {% include fox/FOX_R_VS_D_racism.html %}
 
-*Note: the values plotted on the graph are stacked, to see the contribution of each party use the interactive cursor*
+*Note: the values plotted on the graph are stacked, to see the contribution of each party use the interactive cursor.*
 
 At first sight, the repartition of Republican quotes over the Democrat ones seems pretty balanced. However, over the last couple years, all journals seem to publish more Democratic quotes about racism than Republican ones. This could be explained by the fact that a lot of democratic speakers also advocate for the human rights, whereas this topic is less present in republican’s politics. But this difference between parties is more noticeable in the New York Times and CNN journals than in Fox, which stills publishes a non-negligeable amount of Republican quotes. This is once again an argument showing the tendency of Fox News to support the republican ideology, and the tendency of the others to lean towards the democratic side. 
  
