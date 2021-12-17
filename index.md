@@ -132,9 +132,11 @@ Thus, with our method, trying to determine the political bias of the newspapers 
 
 Instead of trying to determine what every actor *thinks* of a topic, we could simply quantify how much they *talk* about it. Indeed, the coverage of an event or a debated subject can also give us information about a newspaper's political opinion. The more a journal talks about a subjet, the more it cares about it. 
 
-We thus proceeded to analyze the coverage of different topics over the years, in each of the three newspapers. Below is the quotes distribution per month from 2015 to 2020 for the New York Times. 
+We thus proceeded to analyze the coverage of different topics over the years, in each of the three newspapers. Below is the quotes distribution per month from 2015 to 2020 for the New York Times, CNN and Fox. The topic of the quote can be selected using the dropdown menu on the left.
 
 {% include nyt/nyt_sentiment_scores_parties.html %}
+{% include cnn/cnn_sentiment_scores_parties.html %}
+{% include fox/fox_sentiment_scores_parties.html %}
 
 Clearly the topics are all covered regularly. What is interesting is that we can identify major events simply by looking at the peaks in quotes repartition: for example, the number of quotes about racism exploded in August 2017, right at the time of the white nationalist walk in Charlottesville. This peak is even more remarkable in the CNN quotes count, and way less present for Fox. As we can consider CNN as clearly leaning towards the Democrats’ side, and Fox clearly towards the Republican’s one, this proves that looking at the quotes repartition can help us analyze a newspaper’s political orientation.
 
