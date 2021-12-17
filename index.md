@@ -171,17 +171,12 @@ Instead of trying to determine what every actor *thinks* of a topic, we could si
 
 ## References
 
-**TODO** <!-- Add references -->
-
-
-<div class="row">
-    <div class="col-4">
-        {% include nyt/nyt_pie_parties.html %}
-    </div>
-    <div class="col-4">
-        {% include cnn/cnn_pie_parties.html %}
-    </div>
-    <div class="col-4">
-        {% include fox/fox_pie_parties.html %}
-    </div>
-</div>
+- [Quotebank: A Corpus of Quotations from a Decade of News](https://zenodo.org/record/4277311)
+- [The New York Times](https://www.nytimes.com/)
+- [CNN](https://edition.cnn.com/)
+- [Fox News](https://www.foxnews.com/)
+- [NLTK Documentation](https://www.nltk.org/index.html)
+- [Spacy Documentation](https://spacy.io/)
+- [Empath](https://github.com/Ejhfast/empath-client)
+- [Plotly](https://plotly.com/graphing-libraries/)
+- [WordCloud Documentation](https://amueller.github.io/word_cloud/)
